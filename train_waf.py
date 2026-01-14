@@ -1,109 +1,104 @@
 import pandas as pd
 import numpy as np
+import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-import pickle
+from sklearn.ensemble import IsolationForest
 import re
+import urllib.parse
 
-# ================= CONFIGURATION =================
-OUTPUT_BRAIN = "waf_brain.pkl"
+# --- 1. FONCTION DE NETTOYAGE (Version Zero-Day Compatible) ---
+def clean_url(url):
+    """ 
+    Nettoie l'URL mais GARDE les symboles spéciaux 
+    pour permettre la détection d'anomalies (ex: $$$$$)
+    """
+    url = str(url).lower()
+    
+    # A. Décodage Récursif (Phase 1)
+    try:
+        decoded = urllib.parse.unquote(url)
+        while decoded != url:
+            url = decoded
+            decoded = urllib.parse.unquote(url)
+    except:
+        pass
 
-print(f"\n🚀 ENTRAÎNEMENT RENFORCÉ (SPÉCIAL DVWA)")
-print("=========================================")
+    # B. On enlève juste le protocole (bruit inutile)
+    url = re.sub(r'https?://(www\.)?', '', url)
+    
+    # C. IMPORTANT : On NE supprime PLUS les symboles non-alphanumériques !
+    # On nettoie seulement les espaces multiples et les sauts de ligne
+    url = re.sub(r'\s+', ' ', url).strip()
+    
+    return url
 
-# ================= 1. GÉNÉRATION DES DONNÉES =================
-print("[*] Création du dataset avec les attaques DVWA spécifiques...")
+print("[*] 1. Chargement et génération du Dataset...")
 
-# --- TRAFIC NORMAL (Gentil) ---
+# --- 2. DATASET HYBRIDE ---
+
+# Trafic LEGITIME (Good)
 good_queries = [
-    "/", "/index.php", "/login.php", "/home", "/contact", 
-    "/about", "/products?id=1", "/search?q=apple", "/dashboard",
-    "/users/profile", "/images/logo.png", "/style.css", "/js/app.js",
-    "/api/v1/status", "/downloads/manual.pdf", "/shop/cart",
-    "/login.php?user=soufiane", "/welcome?lang=fr", 
-    "/products?id=10", "/search?q=union" # Le mot union seul peut etre gentil
-] * 300
+    "index.html", "home", "login", "dashboard", "profile", "settings",
+    "images/logo.png", "css/style.css", "js/app.js", "api/status",
+    "products?id=12", "search?q=laptop", "contact-us", "about",
+    "blog/article-2023", "user/logout", "cart?add=iphone",
+    "checkout/payment", "api/v1/users", "sitemap.xml",
+    "services/consulting", "portfolio/project-a", "terms-of-service",
+    "login?user=soufiane", "search?category=books&sort=asc"
+] * 200 
 
-# --- TRAFIC MALVEILLANT (Méchant) ---
-xss_attacks = [
-    "<script>alert(1)</script>",
-    "/index.php?q=<script>alert('hacked')</script>",
-    "<img src=x onerror=alert(1)>",
-    "javascript:alert(1)",
-    "\"><script>alert(1)</script>"
-] * 150
+# Trafic MALVEILLANT (Bad)
+bad_queries = [
+    "union select 1,2,3", "or 1=1", "drop table users",
+    "<script>alert(1)</script>", "javascript:void(0)",
+    "../../etc/passwd", "/win.ini", "cmd.exe",
+    "exec(xp_cmdshell)", "sleep(10)", "1' OR '1'='1",
+    "admin' --", "<svg/onload=alert('xss')>",
+    "../../../var/www/html", "cat /etc/shadow",
+    "%27%20OR%20%271%27=%271", 
+    "select * from users",         
+    "select password from admin", 
+    "select group_concat(table_name) from information_schema.tables",
+    "admin' #",
+    "$$$$$$$$$$$$$$$$", # Exemple d'anomalie pure
+    "../../../../boot.ini"
+] * 200
 
-# --- ICI : ON AJOUTE LES ATTAQUES EXACTES DE DVWA ---
-sqli_attacks = [
-    # L'attaque générique
-    "' OR 1=1 --",
-    # TON ATTAQUE PRÉCISE (Celle qui doit être bloquée)
-    "/products?id=1 UNION SELECT user, password",
-    "/products?id=1 UNION SELECT user, password FROM users",
-    # Variantes classiques
-    "UNION SELECT",
-    "UNION ALL SELECT",
-    "/vulnerabilities/sqli/?id=1' OR '1'='1",
-    "' UNION SELECT 1, version() --",
-    "admin' --",
-    "' OR 'a'='a"
-] * 200 # On multiplie par 200 pour insister auprès de l'IA
+# Création des DataFrames
+data_good = pd.DataFrame({'url': good_queries, 'label': 0}) 
+data_bad = pd.DataFrame({'url': bad_queries, 'label': 1})   
+df = pd.concat([data_good, data_bad]).sample(frac=1).reset_index(drop=True)
 
-path_traversal = [
-    "../../../../etc/passwd",
-    "/index.php?page=../../../var/log/apache/access.log",
-    "/etc/shadow",
-    "../boot.ini"
-] * 150
-
-# Fusion des données
-all_data = good_queries + xss_attacks + sqli_attacks + path_traversal
-all_labels = [0]*len(good_queries) + [1]*(len(xss_attacks) + len(sqli_attacks) + len(path_traversal))
-
-df = pd.DataFrame({'request': all_data, 'label': all_labels})
-# Mélange aléatoire
-df = df.sample(frac=1, random_state=42).reset_index(drop=True)
-
-print(f"[+] Dataset prêt : {len(df)} lignes.")
-
-# ================= 2. PRÉPARATION IA =================
-def custom_tokenizer(url):
-    # On découpe l'URL en mots compréhensibles pour l'IA
-    # Cette fonction doit être IDENTIQUE dans le proxy
-    tokens = re.split(r'[/\-?=&%.<>\'"();,]+', str(url))
-    return [t for t in tokens if t]
-
-print("[*] Vectorisation...")
-vectorizer = TfidfVectorizer(tokenizer=custom_tokenizer)
-X = vectorizer.fit_transform(df['request'])
+# --- 3. VECTORISATION ---
+print("[*] 2. Vectorisation (Mode sensible aux symboles)...")
+# analyzer='char' permettrait de voir les caractères, mais 'word' avec notre tokenizer custom est un bon compromis
+vectorizer = TfidfVectorizer(tokenizer=clean_url, token_pattern=None)
+X = vectorizer.fit_transform(df['url'])
 y = df['label']
 
-# ================= 3. ENTRAÎNEMENT =================
-print("[*] Entraînement...")
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
+# --- 4. CERVEAU 1 : CLASSIFIER ---
+print("[*] 3. Entraînement du Classifier (Police)...")
+clf = LogisticRegression()
+clf.fit(X, y)
 
-# C=10.0 rend le modèle plus strict sur les erreurs
-model = LogisticRegression(max_iter=1000, C=10.0) 
-model.fit(X_train, y_train)
+# --- 5. CERVEAU 2 : ANOMALY DETECTOR ---
+print("[*] 4. Entraînement de l'Isolation Forest (Détective)...")
+X_good = vectorizer.transform(data_good['url'])
 
-# ================= 4. TEST DE VÉRIFICATION =================
-# On teste immédiatement ton attaque pour être sûr que le cerveau est bon
-test_attack = "/products?id=1 UNION SELECT user, password"
-vec_test = vectorizer.transform([test_attack])
-res = model.predict(vec_test)[0]
-proba = model.predict_proba(vec_test)[0][1]
+# MODIFICATION : contamination=0.1 (Plus strict, bloque 10% de ce qui s'éloigne de la norme)
+isolation_forest = IsolationForest(n_estimators=100, contamination=0.1, random_state=42)
+isolation_forest.fit(X_good)
 
-print("\n[TEST DE VÉRIFICATION AVANT SAUVEGARDE]")
-print(f"Attaque testée : {test_attack}")
-if res == 1:
-    print(f"✅ DÉTECTION RÉUSSIE ! (Score: {proba:.4f})")
-else:
-    print(f"❌ ÉCHEC : Le modèle ne détecte toujours pas l'attaque.")
+# --- 6. SAUVEGARDE ---
+print("[*] 5. Sauvegarde du cerveau dans 'waf_brain.pkl'...")
+brain_pack = {
+    'vectorizer': vectorizer,
+    'classifier': clf,
+    'anomaly_detector': isolation_forest
+}
 
-# ================= 5. SAUVEGARDE =================
-print(f"\n[*] Sauvegarde dans '{OUTPUT_BRAIN}'...")
-with open(OUTPUT_BRAIN, 'wb') as f:
-    pickle.dump((vectorizer, model), f)
+with open('waf_brain.pkl', 'wb') as f:
+    pickle.dump(brain_pack, f)
 
-print("✅ TERMINE ! Le fichier waf_brain.pkl est prêt.")
+print("✅ TERMINE ! Le modèle est calibré pour le Zero-Day.")

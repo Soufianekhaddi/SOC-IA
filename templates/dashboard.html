@@ -2,150 +2,128 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>SMART WAF AI - SOC</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>SOC-IA | Live Monitor</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { background-color: #0d1117; color: #c9d1d9; font-family: 'Courier New', Courier, monospace; padding: 20px; }
+        body { background-color: #0b0c10; color: #c5c6c7; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; }
+        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #45a29e; padding-bottom: 10px; margin-bottom: 20px; }
+        .header h1 { margin: 0; color: #66fcf1; text-transform: uppercase; letter-spacing: 2px; }
+        .status-badge { background: #1f2833; padding: 5px 15px; border-radius: 5px; border: 1px solid #45a29e; color: #66fcf1; font-weight: bold; }
         
-        /* HEADER */
-        .header { border-bottom: 2px solid #30363d; padding-bottom: 20px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; }
-        h1 { color: #58a6ff; margin: 0; }
+        .grid-container { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .card { background-color: #1f2833; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        .number { font-size: 2.5em; font-weight: bold; color: #fff; }
+        .label { text-transform: uppercase; font-size: 0.8em; color: #888; }
         
-        /* CARTES CHIFFRES */
-        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 30px; }
-        .card { background: #161b22; border: 1px solid #30363d; padding: 20px; border-radius: 8px; text-align: center; }
-        .card p { margin: 10px 0 0; font-size: 30px; font-weight: bold; }
-        .text-green { color: #3fb950; } .text-red { color: #f85149; } .text-blue { color: #58a6ff; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.9em; }
+        th { text-align: left; padding: 10px; border-bottom: 1px solid #45a29e; color: #66fcf1; }
+        td { padding: 10px; border-bottom: 1px solid #333; }
         
-        /* LAYOUT PRINCIPAL (Logs + Classement) */
-        .main-container { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+        .log-blocked { color: #ff4444; font-weight: bold; }
+        .log-allowed { color: #00c851; }
+        .badge-zero-day { background-color: #ff00ff; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }
         
-        /* CONTAINERS GENERIQUES */
-        .panel { background: #161b22; border: 1px solid #30363d; border-radius: 8px; overflow: hidden; padding: 15px; }
-        h3 { margin-top: 0; border-bottom: 1px solid #30363d; padding-bottom: 10px; color: #8b949e; font-size: 14px; text-transform: uppercase; }
-
-        /* TABLEAU */
-        table { width: 100%; border-collapse: collapse; }
-        th { text-align: left; padding: 10px; color: #8b949e; font-size: 12px; }
-        td { padding: 8px; border-bottom: 1px solid #21262d; font-size: 13px; }
-        
-        /* BARRES DE PROGRESSION (CLASSEMENT) */
-        .rank-item { margin-bottom: 15px; }
-        .rank-header { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 5px; }
-        .progress-bg { background: #30363d; height: 8px; border-radius: 4px; overflow: hidden; }
-        .progress-fill { height: 100%; width: 0%; transition: width 0.5s ease; }
-        
-        /* COULEURS */
-        .c-sqli { background-color: #d29922; }
-        .c-xss { background-color: #8957e5; }
-        .c-dos { background-color: #f85149; }
-        .c-path { background-color: #d2a8ff; }
-        .c-def { background-color: #79c0ff; }
-
-        .badge { padding: 3px 6px; border-radius: 4px; font-weight: bold; font-size: 10px; }
+        .chart-container { position: relative; height: 200px; width: 100%; }
     </style>
 </head>
 <body>
+
     <div class="header">
-        <h1><i class="fas fa-shield-alt"></i> SMART WAF SOC</h1>
-        <div style="background:#238636;color:white;padding:5px 10px;border-radius:5px;">LIVE</div>
+        <h1>🛡️ SOC-IA <span style="font-size:0.5em">HYBRID DEFENSE SYSTEM</span></h1>
+        <div class="status-badge">🟢 ENGINE ONLINE</div>
     </div>
 
-    <div class="stats-grid">
-        <div class="card"><h3>TOTAL TRAFIC</h3><p id="total_req" class="text-blue">0</p></div>
-        <div class="card"><h3>MENACES BLOQUÉES</h3><p id="blocked_req" class="text-red">0</p></div>
-        <div class="card"><h3>TRAFIC LÉGITIME</h3><p id="allowed_req" class="text-green">0</p></div>
+    <div class="grid-container">
+        <div class="card" style="border-left: 5px solid #66fcf1;">
+            <div class="label">Requêtes Totales</div>
+            <div class="number" id="total-req">0</div>
+        </div>
+        <div class="card" style="border-left: 5px solid #ff4444;">
+            <div class="label">Menaces Bloquées</div>
+            <div class="number" id="blocked-req" style="color: #ff4444;">0</div>
+        </div>
+        <div class="card">
+            <div class="label">Ratio de Menace</div>
+            <div class="chart-container">
+                <canvas id="threatChart"></canvas>
+            </div>
+        </div>
     </div>
 
-    <div class="main-container">
-        
-        <div class="panel">
-            <h3>🔴 Journal des Menaces (Temps Réel)</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>HEURE</th>
-                        <th>IP</th>
-                        <th>TYPE</th>
-                        <th>SCORE</th>
-                    </tr>
-                </thead>
-                <tbody id="log-table"></tbody>
-            </table>
-        </div>
-
-        <div class="panel">
-            <h3>📊 Top Menaces</h3>
-            <div id="ranking-container">
-                </div>
-        </div>
-
+    <div class="card">
+        <h3 style="color: #66fcf1; border-bottom: 1px solid #333; padding-bottom: 10px;">🔴 Live Traffic Logs</h3>
+        <table id="log-table">
+            <thead>
+                <tr>
+                    <th>Heure</th>
+                    <th>IP Source</th>
+                    <th>Type Détecté</th>
+                    <th>Score IA</th>
+                    <th>Action</th>
+                    <th>Détail URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
     </div>
 
     <script>
-        function getColor(type) {
-            if(type.includes("SQL")) return "c-sqli";
-            if(type.includes("XSS")) return "c-xss";
-            if(type.includes("DoS")) return "c-dos";
-            if(type.includes("Path")) return "c-path";
-            return "c-def";
-        }
+        const ctx = document.getElementById('threatChart').getContext('2d');
+        const threatChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Normal', 'Attaques'],
+                datasets: [{
+                    data: [100, 0],
+                    backgroundColor: ['#1f2833', '#ff4444'],
+                    borderColor: '#0b0c10'
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+        });
 
         function fetchStats() {
-            fetch('/api/stats').then(r => r.json()).then(data => {
-                // Mise à jour Chiffres
-                document.getElementById('total_req').innerText = data.total;
-                document.getElementById('blocked_req').innerText = data.blocked;
-                document.getElementById('allowed_req').innerText = data.allowed;
+            fetch('/api/stats')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('total-req').innerText = data.total;
+                    document.getElementById('blocked-req').innerText = data.blocked;
 
-                // Mise à jour Tableau Logs
-                const tbody = document.getElementById('log-table');
-                tbody.innerHTML = '';
-                data.logs.slice().reverse().forEach(log => {
-                    const colorClass = getColor(log.type).replace('c-', 'bg-'); // Astuce pour réutiliser les couleurs
-                    const row = document.createElement('tr');
-                    if(log.action === "BLOCKED") row.style.color = "#f85149";
+                    // Mise à jour du graphique
+                    threatChart.data.datasets[0].data = [data.allowed, data.blocked];
+                    threatChart.update();
+
+                    // Mise à jour du tableau
+                    const tbody = document.querySelector('#log-table tbody');
+                    tbody.innerHTML = '';
                     
-                    row.innerHTML = `
-                        <td>${log.time}</td>
-                        <td>${log.ip}</td>
-                        <td style="font-size:11px;">${log.type}</td>
-                        <td><b>${(log.score * 100).toFixed(0)}%</b></td>
-                    `;
-                    tbody.appendChild(row);
-                });
+                    data.logs.forEach(log => {
+                        let typeHtml = log.type;
+                        // Ajout d'un badge spécial pour le Zero-Day
+                        if(log.type.includes("Zero-Day")) {
+                            typeHtml = `<span class="badge-zero-day">☠️ ZERO-DAY</span>`;
+                        }
 
-                // Mise à jour Classement (NOUVEAU)
-                const rankContainer = document.getElementById('ranking-container');
-                rankContainer.innerHTML = '';
-                
-                // On transforme l'objet en liste triée
-                const sortedAttacks = Object.entries(data.attack_types)
-                    .sort(([,a], [,b]) => b - a); // Tri du plus grand au plus petit
-
-                const totalAttacks = data.blocked || 1; // Eviter division par zero
-
-                sortedAttacks.forEach(([type, count]) => {
-                    if(count > 0) { // On affiche seulement s'il y a eu au moins 1 attaque
-                        const percent = (count / totalAttacks) * 100;
-                        const barColor = getColor(type);
-                        
-                        rankContainer.innerHTML += `
-                            <div class="rank-item">
-                                <div class="rank-header">
-                                    <span>${type}</span>
-                                    <span>${count}</span>
-                                </div>
-                                <div class="progress-bg">
-                                    <div class="progress-fill ${barColor}" style="width: ${percent}%"></div>
-                                </div>
-                            </div>
+                        const row = `
+                            <tr>
+                                <td>${log.timestamp}</td>
+                                <td>${log.ip}</td>
+                                <td>${typeHtml}</td>
+                                <td>${log.score}</td>
+                                <td class="${log.status === 'BLOCKED' ? 'log-blocked' : 'log-allowed'}">
+                                    ${log.status === 'BLOCKED' ? '🚫 BLOCKED' : '✅ ALLOWED'}
+                                </td>
+                                <td style="font-family: monospace; color: #888;">${log.url}</td>
+                            </tr>
                         `;
-                    }
+                        tbody.innerHTML += row;
+                    });
                 });
-            });
         }
-        setInterval(fetchStats, 1000);
+
+        // Rafraîchir toutes les 2 secondes
+        setInterval(fetchStats, 2000);
         fetchStats();
     </script>
 </body>
