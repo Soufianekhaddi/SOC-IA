@@ -2,129 +2,192 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>SOC-IA | Live Monitor</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <title>SOC-IA | Command Center</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <style>
-        body { background-color: #0b0c10; color: #c5c6c7; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; }
-        .header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #45a29e; padding-bottom: 10px; margin-bottom: 20px; }
-        .header h1 { margin: 0; color: #66fcf1; text-transform: uppercase; letter-spacing: 2px; }
-        .status-badge { background: #1f2833; padding: 5px 15px; border-radius: 5px; border: 1px solid #45a29e; color: #66fcf1; font-weight: bold; }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Segoe UI', monospace;
+        }
+        .navbar {
+            background-color: #161b22;
+            border-bottom: 1px solid #30363d;
+        }
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            margin-bottom: 20px;
+        }
+        .card-header {
+            background-color: #21262d;
+            border-bottom: 1px solid #30363d;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        /* Couleurs spécifiques pour les statuts */
+        .status-blocked { color: #f85149; font-weight: bold; } /* Rouge */
+        .status-allowed { color: #2ea043; font-weight: bold; } /* Vert */
+        .status-trapped { color: #d29922; font-weight: bold; } /* Orange (Honeypot) */
         
-        .grid-container { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 20px; }
-        .card { background-color: #1f2833; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
-        .number { font-size: 2.5em; font-weight: bold; color: #fff; }
-        .label { text-transform: uppercase; font-size: 0.8em; color: #888; }
-        
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 0.9em; }
-        th { text-align: left; padding: 10px; border-bottom: 1px solid #45a29e; color: #66fcf1; }
-        td { padding: 10px; border-bottom: 1px solid #333; }
-        
-        .log-blocked { color: #ff4444; font-weight: bold; }
-        .log-allowed { color: #00c851; }
-        .badge-zero-day { background-color: #ff00ff; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.8em; }
-        
-        .chart-container { position: relative; height: 200px; width: 100%; }
+        /* Tableaux */
+        .table-dark {
+            --bs-table-bg: #161b22;
+            --bs-table-border-color: #30363d;
+        }
+        .badge-threat {
+            font-size: 0.9em;
+            padding: 5px 10px;
+        }
+        /* Animation du point rouge "Live" */
+        .live-indicator {
+            height: 10px;
+            width: 10px;
+            background-color: #2ea043;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <h1>🛡️ SOC-IA <span style="font-size:0.5em">HYBRID DEFENSE SYSTEM</span></h1>
-        <div class="status-badge">🟢 ENGINE ONLINE</div>
-    </div>
+    <nav class="navbar navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-shield-halved me-2"></i> SOC-IA <span class="badge bg-primary ms-2">v4.0 Active Defense</span>
+            </a>
+            <span class="navbar-text">
+                <span class="live-indicator"></span> Système en ligne
+            </span>
+        </div>
+    </nav>
 
-    <div class="grid-container">
-        <div class="card" style="border-left: 5px solid #66fcf1;">
-            <div class="label">Requêtes Totales</div>
-            <div class="number" id="total-req">0</div>
-        </div>
-        <div class="card" style="border-left: 5px solid #ff4444;">
-            <div class="label">Menaces Bloquées</div>
-            <div class="number" id="blocked-req" style="color: #ff4444;">0</div>
-        </div>
-        <div class="card">
-            <div class="label">Ratio de Menace</div>
-            <div class="chart-container">
-                <canvas id="threatChart"></canvas>
+    <div class="container mt-4">
+
+        <div class="row text-center mb-4">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3 class="text-danger"><i class="fa-solid fa-ban"></i> {{ banned|length }}</h3>
+                    <small>IPs Bannies (Prison)</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3 class="text-warning"><i class="fa-solid fa-spider"></i> Honypot</h3>
+                    <small>Défense Active</small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3 class="text-success"><i class="fa-solid fa-check-circle"></i> {{ logs|length }}</h3>
+                    <small>Requêtes Analysées</small>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="card">
-        <h3 style="color: #66fcf1; border-bottom: 1px solid #333; padding-bottom: 10px;">🔴 Live Traffic Logs</h3>
-        <table id="log-table">
-            <thead>
-                <tr>
-                    <th>Heure</th>
-                    <th>IP Source</th>
-                    <th>Type Détecté</th>
-                    <th>Score IA</th>
-                    <th>Action</th>
-                    <th>Détail URL</th>
-                </tr>
-            </thead>
-            <tbody>
-                </tbody>
-        </table>
-    </div>
-
-    <script>
-        const ctx = document.getElementById('threatChart').getContext('2d');
-        const threatChart = new Chart(ctx, {
-            type: 'doughnut',
-            data: {
-                labels: ['Normal', 'Attaques'],
-                datasets: [{
-                    data: [100, 0],
-                    backgroundColor: ['#1f2833', '#ff4444'],
-                    borderColor: '#0b0c10'
-                }]
-            },
-            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
-        });
-
-        function fetchStats() {
-            fetch('/api/stats')
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById('total-req').innerText = data.total;
-                    document.getElementById('blocked-req').innerText = data.blocked;
-
-                    // Mise à jour du graphique
-                    threatChart.data.datasets[0].data = [data.allowed, data.blocked];
-                    threatChart.update();
-
-                    // Mise à jour du tableau
-                    const tbody = document.querySelector('#log-table tbody');
-                    tbody.innerHTML = '';
-                    
-                    data.logs.forEach(log => {
-                        let typeHtml = log.type;
-                        // Ajout d'un badge spécial pour le Zero-Day
-                        if(log.type.includes("Zero-Day")) {
-                            typeHtml = `<span class="badge-zero-day">☠️ ZERO-DAY</span>`;
-                        }
-
-                        const row = `
+        {% if banned %}
+        <div class="card border-danger">
+            <div class="card-header text-danger">
+                <i class="fa-solid fa-lock"></i> IPs Bannies (Blacklist)
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover mb-0">
+                        <thead>
                             <tr>
-                                <td>${log.timestamp}</td>
-                                <td>${log.ip}</td>
-                                <td>${typeHtml}</td>
-                                <td>${log.score}</td>
-                                <td class="${log.status === 'BLOCKED' ? 'log-blocked' : 'log-allowed'}">
-                                    ${log.status === 'BLOCKED' ? '🚫 BLOCKED' : '✅ ALLOWED'}
-                                </td>
-                                <td style="font-family: monospace; color: #888;">${log.url}</td>
+                                <th>IP Attaquant</th>
+                                <th>Raison du ban</th>
+                                <th>Date du ban</th>
+                                <th>Statut</th>
                             </tr>
-                        `;
-                        tbody.innerHTML += row;
-                    });
-                });
-        }
+                        </thead>
+                        <tbody>
+                            {% for ban in banned %}
+                            <tr>
+                                <td class="text-danger fw-bold">{{ ban[0] }}</td>
+                                <td>{{ ban[1] }}</td>
+                                <td>{{ ban[2] }}</td>
+                                <td><span class="badge bg-danger">PERMA-BAN</span></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        {% endif %}
 
-        // Rafraîchir toutes les 2 secondes
-        setInterval(fetchStats, 2000);
-        fetchStats();
-    </script>
+        <div class="card">
+            <div class="card-header">
+                <i class="fa-solid fa-list"></i> Trafic en temps réel (Dernières 20 requêtes)
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-dark table-striped table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>Heure</th>
+                                <th>IP Source</th>
+                                <th>Type Détecté</th>
+                                <th>Score IA</th>
+                                <th>Action</th>
+                                <th>Détail URL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for log in logs %}
+                            <tr>
+                                <td>{{ log[1] }}</td> <td>{{ log[2] }}</td> <td>
+                                    {% if log[5] == 'ALLOWED' %}
+                                        <span class="text-muted">Trafic Normal</span>
+                                    {% else %}
+                                        <strong class="text-white">{{ log[3] }}</strong>
+                                    {% endif %}
+                                </td> <td>
+                                    {% if '100%' in log[4] %}
+                                        <span class="badge bg-danger">Critique</span>
+                                    {% elif log[4] == '0%' %}
+                                        <span class="badge bg-success">Sûr</span>
+                                    {% else %}
+                                        <span class="badge bg-warning text-dark">{{ log[4] }}</span>
+                                    {% endif %}
+                                </td> <td>
+                                    {% if log[5] == 'BLOCKED' %}
+                                        <span class="status-blocked"><i class="fa-solid fa-shield-halved"></i> BLOQUÉ</span>
+                                    {% elif 'BANNED' in log[5] %}
+                                        <span class="status-blocked"><i class="fa-solid fa-gavel"></i> BANNI</span>
+                                    {% elif 'TRAPPED' in log[5] %}
+                                        <span class="status-trapped"><i class="fa-solid fa-spider"></i> PIÉGÉ</span>
+                                    {% else %}
+                                        <span class="status-allowed"><i class="fa-solid fa-check"></i> AUTORISÉ</span>
+                                    {% endif %}
+                                </td> <td class="text-break" style="max-width: 300px; font-family: monospace; font-size: 0.85rem;">
+                                    {{ log[6] }}
+                                </td> </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="text-center mt-5 mb-4 text-muted">
+        <small>© 2026 SOC-IA Project | Powered by TensorFlow & Docker</small>
+    </footer>
+
 </body>
 </html>

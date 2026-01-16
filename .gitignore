@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 *.db
 .DS_Store
+soc_waf.db
+__pycache__/
+venv/
+*.pyc

@@ -1,180 +1,193 @@
-from flask import Flask, request, Response, jsonify, render_template
+import pandas as pd
+from flask import Flask, request, Response, render_template
 import requests
+import tensorflow as tf
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
-import time
+import numpy as np
 import re
-import urllib.parse
 import sqlite3
-from collections import defaultdict
-
-# --- CONFIGURATION ---
-TARGET_URL = "http://localhost:80"
-LISTEN_PORT = 8080
-MAX_REQUESTS_PER_MINUTE = 60
-DB_NAME = "soc_waf.db"
+from urllib.parse import unquote
+from datetime import datetime
 
 app = Flask(__name__)
 
-# --- 0. BDD ---
-def init_db():
-    with sqlite3.connect(DB_NAME) as conn:
-        cursor = conn.cursor()
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS logs (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                timestamp TEXT,
-                ip TEXT,
-                url TEXT,
-                status TEXT,
-                score REAL,
-                type TEXT
-            )
-        ''')
-        conn.commit()
+# --- CONFIGURATION (Spécial Windows Docker) ---
+# Pointe vers le serveur Python qui tourne sur ton vrai PC (port 8000)
+TARGET_URL = "http://host.docker.internal:8000"
+DB_FILE = "soc_waf.db"
 
-# --- 1. NETTOYAGE (Gardant les symboles) ---
-def clean_url(url):
-    url = str(url).lower()
-    try:
-        decoded = urllib.parse.unquote(url)
-        while decoded != url:
-            url = decoded
-            decoded = urllib.parse.unquote(url)
-    except: pass
-    url = re.sub(r'https?://(www\.)?', '', url)
-    url = re.sub(r'\s+', ' ', url).strip()
-    return url
+# Paramètres du modèle (DOIVENT être identiques à ceux de train_deep.py)
+MAX_LENGTH = 200 
 
-# --- 2. CHARGEMENT IA ---
-print("[*] Démarrage du SOC-IA (Version Finale Blindée)...")
+# --- CHARGEMENT DU CERVEAU DEEP LEARNING ---
+print("[*] Démarrage du SOC-IA (Mode Deep Learning)...")
+model = None
+tokenizer = None
+
 try:
-    with open('waf_brain.pkl', 'rb') as f:
-        brain_pack = pickle.load(f)
-    vectorizer = brain_pack['vectorizer']
-    clf = brain_pack['classifier']
-    anomaly_detector = brain_pack['anomaly_detector']
-    print("✅ IA Chargée.")
-    init_db()
+    # 1. Charger le Réseau de Neurones (.h5)
+    model = tf.keras.models.load_model('waf_deep_model.h5')
+    
+    # 2. Charger le Tokenizer (.pickle) pour traduire le texte en nombres
+    with open('tokenizer.pickle', 'rb') as handle:
+        tokenizer = pickle.load(handle)
+        
+    print("✅ Cerveau Deep Learning & Tokenizer chargés avec succès.")
 except Exception as e:
-    print(f"❌ ERREUR: {e}")
-    exit()
+    print(f"❌ ERREUR CRITIQUE : Impossible de charger l'IA. {e}")
+    print("⚠️  Assure-toi d'avoir lancé 'python train_deep.py' avant !")
+    # On ne quitte pas pour permettre au serveur de démarrer (mode dégradé)
 
-# --- 3. LOGGING ---
-ip_counter = defaultdict(list)
-
-def log_request(ip, url, status, score, attack_type):
-    timestamp = time.strftime("%H:%M:%S")
-    safe_url = url[:100] + "..." if len(url) > 100 else url
+# --- BASE DE DONNÉES (LOGS) ---
+def init_db():
     try:
-        with sqlite3.connect(DB_NAME) as conn:
-            cursor = conn.cursor()
-            cursor.execute('''
-                INSERT INTO logs (timestamp, ip, url, status, score, type)
-                VALUES (?, ?, ?, ?, ?, ?)
-            ''', (timestamp, ip, safe_url, status, score, attack_type))
-            conn.commit()
-    except: pass
+        conn = sqlite3.connect(DB_FILE)
+        c = conn.cursor()
+        c.execute('''CREATE TABLE IF NOT EXISTS logs 
+                     (id INTEGER PRIMARY KEY, timestamp TEXT, ip TEXT, 
+                      request_type TEXT, score TEXT, action TEXT, details TEXT)''')
+        conn.commit()
+        conn.close()
+    except Exception as e:
+        print(f"Erreur DB: {e}")
 
-# --- 4. PROXY ---
+init_db()
+
+def log_request(ip, req_type, score, action, details):
+    try:
+        conn = sqlite3.connect(DB_FILE)
+        c = conn.cursor()
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        c.execute("INSERT INTO logs (timestamp, ip, request_type, score, action, details) VALUES (?, ?, ?, ?, ?, ?)",
+                  (timestamp, ip, req_type, score, action, details))
+        conn.commit()
+        conn.close()
+    except Exception as e:
+        print(f"Erreur Log: {e}")
+
+# --- ANALYSE DE SÉCURITÉ ---
+def clean_url(url):
+    """Nettoie l'URL pour l'analyse (décodage + minuscule)"""
+    return unquote(url).lower()
+
+def check_hard_rules(url):
+    """Layer 1 : Règles strictes (Signatures évidentes)"""
+    # SQL Injection Patterns
+    sqli_patterns = [
+        r"select\s+.*\s+from", r"union\s+select", r"insert\s+into", 
+        r"drop\s+table", r"or\s+1=1", r"waitfor\s+delay"
+    ]
+    for p in sqli_patterns:
+        if re.search(p, url): return "SQL Injection (Signature)"
+    
+    # XSS Patterns
+    xss_patterns = [
+        r"<script>", r"javascript:", r"onload=", r"onerror="
+    ]
+    for p in xss_patterns:
+        if re.search(p, url): return "XSS Attack (Signature)"
+    
+    # Heuristique (Buffer Overflow)
+    if len(url) > 500 or re.search(r"(.)\1{30,}", url): 
+        return "Buffer Overflow / Fuzzing"
+
+    return None
+
+def analyze_request(url):
+    """Layer 2 : Cerveau Deep Learning"""
+    url_decoded = clean_url(url)
+
+    # 1. HARD RULES (Priorité absolue)
+    rule_check = check_hard_rules(url_decoded)
+    if rule_check:
+        return True, rule_check, "100%"
+
+    # Si le modèle n'est pas chargé, on laisse passer (Fail-Open)
+    if model is None or tokenizer is None:
+        return False, "IA Non Chargée (Pass-Through)", "0%"
+
+    # 2. DEEP LEARNING PREDICTION
+    try:
+        # Transformation de l'URL en séquence de nombres
+        sequences = tokenizer.texts_to_sequences([url_decoded])
+        
+        # Padding (remplissage) pour avoir la taille attendue par le modèle
+        padded = pad_sequences(sequences, maxlen=MAX_LENGTH, padding='post', truncating='post')
+        
+        # Prédiction (retourne une probabilité entre 0 et 1)
+        # verbose=0 pour éviter de polluer les logs à chaque requête
+        prediction = model.predict(padded, verbose=0)[0][0]
+        
+        confidence_score = round(prediction * 100, 2)
+        
+        # Seuil de décision (0.5 = 50%)
+        if prediction > 0.5:
+            return True, "Menace Deep Learning", f"{confidence_score}%"
+        
+        return False, "Normal Traffic", f"{confidence_score}%"
+
+    except Exception as e:
+        print(f"Erreur prédiction: {e}")
+        return False, "Erreur Analyse", "0%"
+
+# --- ROUTE DU DASHBOARD ---
+@app.route('/dashboard')
+def dashboard():
+    conn = sqlite3.connect(DB_FILE)
+    c = conn.cursor()
+    logs = c.execute("SELECT * FROM logs ORDER BY id DESC LIMIT 20").fetchall()
+    conn.close()
+    return render_template('dashboard.html', logs=logs)
+
+# --- ROUTE PRINCIPALE (PROXY) ---
 @app.route('/', defaults={'path': ''}, methods=['GET', 'POST', 'PUT', 'DELETE'])
 @app.route('/<path:path>', methods=['GET', 'POST', 'PUT', 'DELETE'])
 def proxy(path):
+    full_path = request.full_path if request.query_string else request.path
     client_ip = request.remote_addr
-    full_url = request.url.replace(request.host_url, "/")
-    if not full_url.startswith("/"): full_url = "/" + full_url
 
-    # ANTI-DOS
-    current_time = time.time()
-    ip_counter[client_ip] = [t for t in ip_counter[client_ip] if current_time - t < 60]
-    if len(ip_counter[client_ip]) > MAX_REQUESTS_PER_MINUTE:
-        log_request(client_ip, "DOS", "BLOCKED", 100, "DoS Flood 🌊")
-        return Response("🚫 BANNED", status=429)
-    ip_counter[client_ip].append(current_time)
+    if path.startswith('static') or path == 'favicon.ico':
+        return Response("Not Found", status=404)
 
-    # PREPARATION
-    cleaned_input = clean_url(full_url)
-    url_vector = vectorizer.transform([full_url])
-    
-    # IA PREDICTIONS
-    proba_attack = clf.predict_proba(url_vector)[0][1] * 100
-    anomaly_pred = anomaly_detector.predict(url_vector)[0]
-    is_anomaly = True if anomaly_pred == -1 else False
+    # --- ANALYSE ---
+    is_blocked, threat_type, score = analyze_request(full_path)
 
-    # --- MOTEUR DE DECISION ---
-    block_reason = None
-    final_score = proba_attack
-    attack_label = "Normal"
+    if is_blocked:
+        print(f"🚨 BLOQUÉ ({score}): {full_path} -> {threat_type}")
+        log_request(client_ip, threat_type, score, "BLOCKED", full_path)
+        return render_template('block_page.html', 
+                             ip=client_ip, 
+                             reason=threat_type, 
+                             id=re.sub(r'\D', '', str(datetime.now().timestamp())))
 
-    # 1. REGLES HEURISTIQUES (Comportementales)
-    # Règle : Si un caractère se répète plus de 25 fois (ex: AAAAA..., $$$$$...)
-    if re.search(r'(.)\1{25,}', full_url):
-        block_reason = "Heuristique : Répétition Excessive"
-        final_score = 100.0
-        attack_label = "💥 Buffer Overflow / Fuzzing"
+    # --- TRANSMISSION ---
+    print(f"✅ AUTORISÉ ({score}): {full_path}")
+    log_request(client_ip, threat_type, score, "ALLOWED", full_path)
 
-    # 2. REGLES DURES (Signature)
-    elif "select" in cleaned_input and "from" in cleaned_input:
-        block_reason = "Hard Rule : SQL Injection"
-        final_score = 100.0
-        attack_label = "💉 SQL Injection"
-    elif "<script>" in full_url.lower() or "javascript:" in full_url.lower():
-        block_reason = "Hard Rule : XSS Detected"
-        final_score = 100.0
-        attack_label = "☠️ XSS Attack"
+    target = f"{TARGET_URL}/{path}"
+    if request.query_string:
+        target += f"?{request.query_string.decode('utf-8')}"
 
-    # 3. IA SIGNATURE (Attaque connue)
-    elif proba_attack > 50:
-        block_reason = f"IA Détection ({proba_attack:.1f}%)"
-        if "union" in cleaned_input: attack_label = "SQL Injection"
-        else: attack_label = "Malicious Payload"
-
-    # 4. IA ZERO-DAY (Anomalie de structure)
-    elif is_anomaly:
-        block_reason = "IA Isolation Forest : Structure Anormale"
-        final_score = 99.9
-        attack_label = "⚠️ Zero-Day Anomaly"
-
-    # ACTION
-    if block_reason:
-        print(f"🚨 BLOCKED: {full_url} -> {block_reason}")
-        log_request(client_ip, full_url, "BLOCKED", final_score, attack_label)
-        return render_template('block_page.html', score=final_score, reason=block_reason), 403
-
-    # ALLOWED
-    print(f"✅ ALLOWED: {full_url}")
-    log_request(client_ip, full_url, "ALLOWED", final_score, "Normal Traffic")
-    
     try:
         resp = requests.request(
             method=request.method,
-            url=f"{TARGET_URL}/{path}",
-            headers={k: v for k, v in request.headers if k != 'Host'},
+            url=target,
+            headers={key: value for (key, value) in request.headers if key != 'Host'},
             data=request.get_data(),
             cookies=request.cookies,
             allow_redirects=False
         )
-        return Response(resp.content, resp.status_code, dict(resp.headers))
-    except Exception as e:
-        return Response(f"Backend Error: {e}", 500)
 
-# DASHBOARD
-@app.route('/dashboard')
-def dashboard(): return render_template('dashboard.html')
-@app.route('/api/stats')
-def stats():
-    try:
-        with sqlite3.connect(DB_NAME) as conn:
-            conn.row_factory = sqlite3.Row
-            cursor = conn.cursor()
-            cursor.execute("SELECT COUNT(*) FROM logs")
-            total = cursor.fetchone()[0]
-            cursor.execute("SELECT COUNT(*) FROM logs WHERE status='BLOCKED'")
-            blocked = cursor.fetchone()[0]
-            cursor.execute("SELECT * FROM logs ORDER BY id DESC LIMIT 50")
-            rows = cursor.fetchall()
-            logs = [{"timestamp": r["timestamp"], "ip": r["ip"], "url": r["url"], "status": r["status"], "score": f"{r['score']:.1f}%", "type": r["type"]} for r in rows]
-            return jsonify({"total": total, "blocked": blocked, "allowed": total - blocked, "logs": logs})
-    except: return jsonify({"total":0, "blocked":0, "allowed":0, "logs":[]})
+        excluded_headers = ['content-encoding', 'content-length', 'transfer-encoding', 'connection']
+        headers = [(name, value) for (name, value) in resp.raw.headers.items()
+                   if name.lower() not in excluded_headers]
+
+        return Response(resp.content, resp.status_code, headers)
+
+    except requests.exceptions.ConnectionError:
+        return Response("<h1>Erreur Backend</h1><p>Le WAF est actif mais le serveur cible (port 8000) ne répond pas.</p>", status=502)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=LISTEN_PORT)
+    # Écoute sur toutes les interfaces du conteneur
+    app.run(host='0.0.0.0', port=8080)

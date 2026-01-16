@@ -1,0 +1,5001 @@
+url,label
+/products?session=xyz,0
+/; cat /etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+/home,0
+/dashboard?q=../../../../etc/passwd,1
+/images/logo.png?session=xyz,0
+/products?session=xyz,0
+/api/user?session=xyz,0
+/about?id=7196,0
+/images/logo.png?q=javascript:alert(1),1
+/api/user?q=admin' --,1
+/products?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/products?page=1,0
+/api/user?q=<script>alert(1)</script>,1
+/api/user?q=| whoami,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about?category=books,0
+/images/logo.png?category=books,0
+/contact?session=xyz,0
+/products,0
+/javascript:alert(1),1
+/api/user?q=$$$$$$$$$$$$,1
+/; cat /etc/passwd,1
+/products?q=| whoami,1
+/dashboard?q=../../../../etc/passwd,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/admin' --,1
+/' OR '1'='1,1
+/<script>alert(1)</script>,1
+/..\..\windows\system32\cmd.exe,1
+/dashboard?id=5478,0
+/; cat /etc/passwd,1
+/api/user?q=search,0
+/products?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/login,0
+/<script>alert(1)</script>,1
+/about?q=search,0
+/api/user?q=search,0
+/dashboard,0
+/images/logo.png?session=xyz,0
+/admin' --,1
+/&& netstat -an,1
+/images/logo.png?session=xyz,0
+/api/user?category=books,0
+/about?q=$$$$$$$$$$$$,1
+/about?session=xyz,0
+/images/logo.png?category=books,0
+/about?page=1,0
+/%00%00%00,1
+/assets/style.css?q=../../../../etc/passwd,1
+/; cat /etc/passwd,1
+/assets/style.css?id=6070,0
+/products,0
+/images/logo.png?q=' OR '1'='1,1
+/about?category=books,0
+/' OR 1=1 --,1
+/assets/style.css,0
+/$$$$$$$$$$$$,1
+/about?session=xyz,0
+/api/user?q=search,0
+/login?page=1,0
+/login?q=search,0
+/<img src=x onerror=alert('hacked')>,1
+/dashboard?category=books,0
+/login?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/api/user?id=1358,0
+/dashboard?q=| whoami,1
+/images/logo.png?session=xyz,0
+/contact?category=books,0
+/about?id=3279,0
+/assets/style.css?q=%00%00%00,1
+/home?q=<img src=x onerror=alert('hacked')>,1
+/' OR '1'='1,1
+/dashboard?category=books,0
+/home?category=books,0
+/products?id=7064,0
+/api/user?q=search,0
+/home?q=; DROP TABLE students,1
+/login?id=8933,0
+/login?page=1,0
+/products?category=books,0
+/contact?id=93,0
+/login?category=books,0
+/login,0
+/<img src=x onerror=alert('hacked')>,1
+/api/user?q=<img src=x onerror=alert('hacked')>,1
+/api/user?category=books,0
+/<img src=x onerror=alert('hacked')>,1
+/about?page=1,0
+/images/logo.png?q=<script>alert(1)</script>,1
+/login,0
+/api/user?q=%00%00%00,1
+/home?id=9799,0
+/home?q=search,0
+/home?page=1,0
+/%00%00%00,1
+/login?q=; DROP TABLE students,1
+"/UNION SELECT user, password FROM users",1
+/../../../../etc/passwd,1
+/; cat /etc/passwd,1
+/admin' --,1
+/admin' --,1
+/products?page=1,0
+/contact?category=books,0
+/api/user?id=2845,0
+/home,0
+/products?session=xyz,0
+/products?page=1,0
+/images/logo.png?q=<img src=x onerror=alert('hacked')>,1
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=../../../../etc/passwd,1
+/images/logo.png?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/api/user?category=books,0
+/api/user?q=<img src=x onerror=alert('hacked')>,1
+/dashboard?id=2190,0
+/api/user?q=%00%00%00,1
+/about?q=<script>alert(1)</script>,1
+/api/user?q=search,0
+/home?q=admin' --,1
+/assets/style.css,0
+/contact?session=xyz,0
+/api/user?page=1,0
+/images/logo.png?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/home?q=&& netstat -an,1
+/api/user?q=../../../../etc/passwd,1
+/about,0
+/' OR 1=1 --,1
+/dashboard?id=2536,0
+/dashboard,0
+/products?session=xyz,0
+/images/logo.png?q=$$$$$$$$$$$$,1
+/javascript:alert(1),1
+/images/logo.png?page=1,0
+/about?page=1,0
+/images/logo.png?q=&& netstat -an,1
+/login?q=; cat /etc/passwd,1
+/dashboard?q=&& netstat -an,1
+/products,0
+/contact,0
+/home?q=%00%00%00,1
+/' OR 1=1 --,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about?category=books,0
+/about,0
+/<script>alert(1)</script>,1
+/..\..\windows\system32\cmd.exe,1
+/products?q=$$$$$$$$$$$$,1
+/products?q=admin' --,1
+/javascript:alert(1),1
+/assets/style.css?q=; DROP TABLE students,1
+/products?session=xyz,0
+/javascript:alert(1),1
+/| whoami,1
+/| whoami,1
+/dashboard?q=search,0
+/home,0
+/about?q=&& netstat -an,1
+/login?category=books,0
+/contact,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about?q=; cat /etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+/images/logo.png?page=1,0
+/images/logo.png?session=xyz,0
+/api/user?id=4681,0
+/api/user?id=3523,0
+/products?session=xyz,0
+/products?session=xyz,0
+/about,0
+/assets/style.css,0
+/&& netstat -an,1
+/about?q=&& netstat -an,1
+/| whoami,1
+/contact?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?q=..\..\windows\system32\cmd.exe,1
+/assets/style.css?q=../../../../etc/passwd,1
+/home?q=%00%00%00,1
+/products?page=1,0
+/login?category=books,0
+/images/logo.png?id=9661,0
+/javascript:alert(1),1
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/contact?page=1,0
+"/UNION SELECT user, password FROM users",1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/admin' --,1
+/api/user?category=books,0
+/products?q=..\..\windows\system32\cmd.exe,1
+/dashboard?category=books,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/api/user?q=search,0
+/login?category=books,0
+/api/user?page=1,0
+/images/logo.png?category=books,0
+/contact?id=5103,0
+/javascript:alert(1),1
+/admin' --,1
+/products?category=books,0
+/dashboard?q=; DROP TABLE students,1
+/products?id=801,0
+/assets/style.css,0
+/' OR 1=1 --,1
+/' OR '1'='1,1
+/assets/style.css?id=7345,0
+/assets/style.css,0
+/about?q=$$$$$$$$$$$$,1
+/; DROP TABLE students,1
+/javascript:alert(1),1
+/api/user,0
+/assets/style.css?q=' OR 1=1 --,1
+/about?id=7214,0
+/contact?q=<script>alert(1)</script>,1
+/' OR 1=1 --,1
+/<img src=x onerror=alert('hacked')>,1
+/contact?session=xyz,0
+/images/logo.png?page=1,0
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/about?q=' OR '1'='1,1
+/products,0
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/../../../../etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about?session=xyz,0
+/dashboard?q=%00%00%00,1
+/contact?q=search,0
+/; cat /etc/passwd,1
+/; cat /etc/passwd,1
+/contact?q=admin' --,1
+/images/logo.png?page=1,0
+/<script>alert(1)</script>,1
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/&& netstat -an,1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/; cat /etc/passwd,1
+/assets/style.css?session=xyz,0
+/home?id=7698,0
+/dashboard?category=books,0
+/dashboard,0
+/products?session=xyz,0
+/admin' --,1
+/assets/style.css?id=3431,0
+/..\..\windows\system32\cmd.exe,1
+/dashboard?q=' OR 1=1 --,1
+/admin' --,1
+/assets/style.css?q=&& netstat -an,1
+/products?id=956,0
+/| whoami,1
+/api/user?session=xyz,0
+/about,0
+/images/logo.png?id=9798,0
+/images/logo.png?q=<script>alert(1)</script>,1
+/login?q=search,0
+/home?q=' OR '1'='1,1
+/home,0
+/login?q=search,0
+/' OR '1'='1,1
+/assets/style.css?q=admin' --,1
+/contact?q=&& netstat -an,1
+/api/user?q=| whoami,1
+/images/logo.png?id=9176,0
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?session=xyz,0
+/products?q=search,0
+/images/logo.png?q=javascript:alert(1),1
+/products?q=search,0
+/products?category=books,0
+/assets/style.css,0
+/<script>alert(1)</script>,1
+/; cat /etc/passwd,1
+/dashboard?q=javascript:alert(1),1
+/..\..\windows\system32\cmd.exe,1
+/images/logo.png?q=%00%00%00,1
+/images/logo.png,0
+/login?category=books,0
+/images/logo.png?q=search,0
+/%00%00%00,1
+/api/user?q=; DROP TABLE students,1
+/about?page=1,0
+/dashboard?q=search,0
+/images/logo.png?id=1018,0
+/dashboard?category=books,0
+/images/logo.png?q=search,0
+/dashboard?category=books,0
+/assets/style.css?q=| whoami,1
+/&& netstat -an,1
+/&& netstat -an,1
+/login?id=9534,0
+/<script>alert(1)</script>,1
+/dashboard?id=151,0
+/assets/style.css,0
+/<script>alert(1)</script>,1
+/contact?id=3673,0
+/images/logo.png?q=&& netstat -an,1
+/; cat /etc/passwd,1
+/login?q=search,0
+/about?q=search,0
+/..\..\windows\system32\cmd.exe,1
+/home?session=xyz,0
+/login?category=books,0
+/about?page=1,0
+/images/logo.png?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?page=1,0
+/javascript:alert(1),1
+/home?q=' OR '1'='1,1
+/api/user?q=<script>alert(1)</script>,1
+/admin' --,1
+/javascript:alert(1),1
+/assets/style.css?q=| whoami,1
+/&& netstat -an,1
+/login?q=<script>alert(1)</script>,1
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/| whoami,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=javascript:alert(1),1
+/contact?category=books,0
+/; DROP TABLE students,1
+/home?q=search,0
+/contact?session=xyz,0
+/javascript:alert(1),1
+/dashboard?q=search,0
+/home?session=xyz,0
+/home?q=| whoami,1
+/assets/style.css?session=xyz,0
+/api/user,0
+/contact?page=1,0
+/<script>alert(1)</script>,1
+/products?q=<img src=x onerror=alert('hacked')>,1
+/javascript:alert(1),1
+/login?q=javascript:alert(1),1
+/login,0
+/home?session=xyz,0
+/home?q=search,0
+/..\..\windows\system32\cmd.exe,1
+/home?id=5631,0
+/login?q=$$$$$$$$$$$$,1
+/contact?session=xyz,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/about?q=' OR 1=1 --,1
+/' OR '1'='1,1
+/contact?id=6739,0
+/products?q=' OR '1'='1,1
+/images/logo.png?page=1,0
+/assets/style.css?q=<script>alert(1)</script>,1
+/dashboard?q=&& netstat -an,1
+/dashboard?session=xyz,0
+/contact?category=books,0
+/assets/style.css?q=search,0
+/../../../../etc/passwd,1
+/dashboard?page=1,0
+/dashboard?q=<script>alert(1)</script>,1
+/login?id=3646,0
+/home?q=../../../../etc/passwd,1
+/images/logo.png?category=books,0
+/assets/style.css?category=books,0
+/admin' --,1
+/contact,0
+/login,0
+/home?q=admin' --,1
+/login,0
+/%00%00%00,1
+/' OR '1'='1,1
+/dashboard?q=$$$$$$$$$$$$,1
+/about?category=books,0
+/dashboard?session=xyz,0
+/home?q=search,0
+/contact?id=6276,0
+/dashboard,0
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/products,0
+/assets/style.css?id=8326,0
+/<img src=x onerror=alert('hacked')>,1
+/about,0
+/; cat /etc/passwd,1
+/home?session=xyz,0
+/assets/style.css,0
+/<img src=x onerror=alert('hacked')>,1
+/images/logo.png?id=2319,0
+/$$$$$$$$$$$$,1
+/images/logo.png?category=books,0
+/login,0
+/login?session=xyz,0
+/dashboard?page=1,0
+/contact,0
+/login?q=' OR 1=1 --,1
+/products?q=' OR '1'='1,1
+/about?id=4012,0
+/products?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/../../../../etc/passwd,1
+/&& netstat -an,1
+/../../../../etc/passwd,1
+/about?page=1,0
+/products?q=&& netstat -an,1
+/login?session=xyz,0
+/about?q=&& netstat -an,1
+/javascript:alert(1),1
+/home?session=xyz,0
+/dashboard?session=xyz,0
+/about?q=javascript:alert(1),1
+/login?session=xyz,0
+/assets/style.css?page=1,0
+/..\..\windows\system32\cmd.exe,1
+/' OR '1'='1,1
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?q=../../../../etc/passwd,1
+/api/user?page=1,0
+/login?page=1,0
+/images/logo.png?q=../../../../etc/passwd,1
+/products?q=' OR 1=1 --,1
+/about?q=search,0
+/products?q=; cat /etc/passwd,1
+/dashboard?id=7260,0
+/admin' --,1
+/images/logo.png?page=1,0
+/about,0
+/assets/style.css?session=xyz,0
+/<script>alert(1)</script>,1
+/about?session=xyz,0
+/images/logo.png,0
+/home?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/home?q=search,0
+/products?q=search,0
+/products?q=../../../../etc/passwd,1
+/javascript:alert(1),1
+/products,0
+"/UNION SELECT user, password FROM users",1
+/dashboard?q=| whoami,1
+/products?id=1216,0
+/contact?q=search,0
+/images/logo.png,0
+/assets/style.css?q=admin' --,1
+/&& netstat -an,1
+/images/logo.png?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/admin' --,1
+/home?category=books,0
+/<script>alert(1)</script>,1
+/$$$$$$$$$$$$,1
+/admin' --,1
+/contact?id=2226,0
+/home?id=76,0
+/about?q=| whoami,1
+/contact?q=<script>alert(1)</script>,1
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact,0
+/about?q=search,0
+/' OR '1'='1,1
+"/UNION SELECT user, password FROM users",1
+/products?q=' OR 1=1 --,1
+/login?q=search,0
+/about?q=; DROP TABLE students,1
+/dashboard?q=search,0
+/login?category=books,0
+/api/user?q=<img src=x onerror=alert('hacked')>,1
+/home?page=1,0
+/contact?session=xyz,0
+/home?q=' OR '1'='1,1
+"/UNION SELECT user, password FROM users",1
+/about?q=search,0
+/admin' --,1
+/dashboard?session=xyz,0
+/contact?q=search,0
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/login?q=; DROP TABLE students,1
+/images/logo.png,0
+/login?category=books,0
+/products?q=%00%00%00,1
+/dashboard?category=books,0
+/products?id=1912,0
+/login?session=xyz,0
+/; DROP TABLE students,1
+/; DROP TABLE students,1
+/dashboard?id=4821,0
+/products?session=xyz,0
+/login?q=search,0
+/| whoami,1
+/<img src=x onerror=alert('hacked')>,1
+/images/logo.png?q=' OR '1'='1,1
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/login?q=../../../../etc/passwd,1
+/images/logo.png,0
+/contact,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?category=books,0
+/contact?category=books,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/assets/style.css?page=1,0
+/assets/style.css,0
+/about?category=books,0
+/about?id=4738,0
+/<script>alert(1)</script>,1
+/assets/style.css?session=xyz,0
+/products?category=books,0
+/login?id=7732,0
+/contact?q=search,0
+/contact?category=books,0
+/products?q=search,0
+/login?q=| whoami,1
+/javascript:alert(1),1
+/products,0
+/images/logo.png?q=' OR '1'='1,1
+/api/user?q=../../../../etc/passwd,1
+/login?id=1359,0
+/dashboard?category=books,0
+/dashboard?q=; DROP TABLE students,1
+/../../../../etc/passwd,1
+/%00%00%00,1
+/products?q=search,0
+/| whoami,1
+/../../../../etc/passwd,1
+/login,0
+/about?category=books,0
+/products?id=1381,0
+/products?page=1,0
+/api/user?category=books,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/about?category=books,0
+"/UNION SELECT user, password FROM users",1
+/api/user?category=books,0
+/login?q=search,0
+/about?session=xyz,0
+/home,0
+/contact?q=search,0
+/' OR '1'='1,1
+/assets/style.css,0
+/api/user?q=search,0
+/api/user?q=search,0
+/products?q=search,0
+/; DROP TABLE students,1
+/products?q=' OR 1=1 --,1
+/contact?q=search,0
+/%00%00%00,1
+/home?q=' OR 1=1 --,1
+/home?category=books,0
+/%00%00%00,1
+"/UNION SELECT user, password FROM users",1
+/&& netstat -an,1
+/images/logo.png?q=search,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?page=1,0
+/images/logo.png?q=../../../../etc/passwd,1
+/login,0
+/<script>alert(1)</script>,1
+/$$$$$$$$$$$$,1
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/api/user?q=; cat /etc/passwd,1
+/home?q=admin' --,1
+/about?q=search,0
+/about?category=books,0
+/<script>alert(1)</script>,1
+/login?q=<img src=x onerror=alert('hacked')>,1
+/products?q=| whoami,1
+/assets/style.css?q=; cat /etc/passwd,1
+/images/logo.png?page=1,0
+/images/logo.png?category=books,0
+/login,0
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?page=1,0
+/contact?q=<script>alert(1)</script>,1
+/about?q=../../../../etc/passwd,1
+/dashboard?id=1367,0
+/contact?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/products?id=1833,0
+"/UNION SELECT user, password FROM users",1
+/api/user?q=%00%00%00,1
+/assets/style.css?category=books,0
+/images/logo.png?q=| whoami,1
+/images/logo.png?q=; DROP TABLE students,1
+/api/user,0
+/images/logo.png?session=xyz,0
+/; cat /etc/passwd,1
+/dashboard?session=xyz,0
+/' OR '1'='1,1
+/javascript:alert(1),1
+/home?id=3584,0
+/dashboard?q=' OR '1'='1,1
+/home?category=books,0
+"/UNION SELECT user, password FROM users",1
+/&& netstat -an,1
+/home?q=search,0
+/; DROP TABLE students,1
+/assets/style.css?session=xyz,0
+/dashboard?q=<script>alert(1)</script>,1
+/contact?q=; cat /etc/passwd,1
+/../../../../etc/passwd,1
+/; DROP TABLE students,1
+/assets/style.css?id=6045,0
+/; cat /etc/passwd,1
+/&& netstat -an,1
+/assets/style.css?q=$$$$$$$$$$$$,1
+/; DROP TABLE students,1
+/<script>alert(1)</script>,1
+/api/user?q=search,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/contact?category=books,0
+/products?page=1,0
+/home?id=1301,0
+/home?q=search,0
+/images/logo.png?page=1,0
+/..\..\windows\system32\cmd.exe,1
+/products?q=$$$$$$$$$$$$,1
+/about?id=8498,0
+/images/logo.png?q=search,0
+/api/user?q=search,0
+/login?q=search,0
+/home,0
+/' OR '1'='1,1
+/contact?id=3667,0
+/products?q=' OR 1=1 --,1
+/assets/style.css?category=books,0
+/images/logo.png?q=' OR 1=1 --,1
+/contact?q=; cat /etc/passwd,1
+/about?page=1,0
+/../../../../etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?q=<script>alert(1)</script>,1
+/images/logo.png?q=search,0
+/products?id=8563,0
+/about?q=<script>alert(1)</script>,1
+/images/logo.png?q=' OR 1=1 --,1
+/contact?q=javascript:alert(1),1
+/login?q=<script>alert(1)</script>,1
+/products?id=1459,0
+/home?session=xyz,0
+/login?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/api/user?q=' OR '1'='1,1
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/assets/style.css?q=; cat /etc/passwd,1
+/products?category=books,0
+/images/logo.png?category=books,0
+/' OR 1=1 --,1
+/api/user,0
+/contact?q=' OR 1=1 --,1
+/; cat /etc/passwd,1
+/products?q=javascript:alert(1),1
+/contact?q=admin' --,1
+/dashboard?page=1,0
+"/UNION SELECT user, password FROM users",1
+/about,0
+/api/user?q=javascript:alert(1),1
+/assets/style.css,0
+/images/logo.png?session=xyz,0
+/api/user?q=search,0
+/&& netstat -an,1
+"/UNION SELECT user, password FROM users",1
+/<script>alert(1)</script>,1
+/images/logo.png?q=%00%00%00,1
+/home?q=| whoami,1
+/javascript:alert(1),1
+/about?session=xyz,0
+/about?page=1,0
+/dashboard?session=xyz,0
+/home,0
+/products?page=1,0
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+"/UNION SELECT user, password FROM users",1
+/images/logo.png?page=1,0
+/&& netstat -an,1
+/products?q=search,0
+/products?session=xyz,0
+/about?category=books,0
+/dashboard?q=search,0
+/api/user?session=xyz,0
+/api/user,0
+/about,0
+/api/user?q=search,0
+/products?id=9162,0
+/assets/style.css?q=admin' --,1
+/products?session=xyz,0
+/contact?q=' OR 1=1 --,1
+/home?q=' OR '1'='1,1
+/images/logo.png?q=%00%00%00,1
+/contact?id=8880,0
+/| whoami,1
+/$$$$$$$$$$$$,1
+/| whoami,1
+/contact?session=xyz,0
+/contact?q=; DROP TABLE students,1
+/products?q=' OR 1=1 --,1
+/api/user?category=books,0
+"/UNION SELECT user, password FROM users",1
+/login,0
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/api/user?id=5627,0
+/about?id=1479,0
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/dashboard?q=<script>alert(1)</script>,1
+/login?q=%00%00%00,1
+/login?q=javascript:alert(1),1
+/contact?q=' OR 1=1 --,1
+/images/logo.png?category=books,0
+/about?q=../../../../etc/passwd,1
+/dashboard?q=javascript:alert(1),1
+/assets/style.css?q=javascript:alert(1),1
+/login?q=../../../../etc/passwd,1
+/contact?q=<script>alert(1)</script>,1
+/home?session=xyz,0
+/about?page=1,0
+/contact?id=7585,0
+/images/logo.png?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/$$$$$$$$$$$$,1
+/about?page=1,0
+/products?page=1,0
+/about?category=books,0
+/dashboard?id=2968,0
+/' OR 1=1 --,1
+/login?id=5835,0
+/contact?id=5555,0
+/assets/style.css?q=search,0
+/..\..\windows\system32\cmd.exe,1
+/contact?page=1,0
+/login?q=&& netstat -an,1
+/assets/style.css?page=1,0
+"/UNION SELECT user, password FROM users",1
+/; DROP TABLE students,1
+/assets/style.css,0
+/; DROP TABLE students,1
+/%00%00%00,1
+/| whoami,1
+"/UNION SELECT user, password FROM users",1
+/login?q=%00%00%00,1
+/about?category=books,0
+/dashboard,0
+/admin' --,1
+/assets/style.css,0
+/assets/style.css?id=4112,0
+/javascript:alert(1),1
+/javascript:alert(1),1
+"/UNION SELECT user, password FROM users",1
+/images/logo.png?category=books,0
+/home?category=books,0
+/images/logo.png?q=' OR 1=1 --,1
+/home?page=1,0
+/api/user?session=xyz,0
+/images/logo.png?session=xyz,0
+/login?category=books,0
+/assets/style.css?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?session=xyz,0
+/dashboard?q=' OR '1'='1,1
+/javascript:alert(1),1
+/contact?q=search,0
+/; cat /etc/passwd,1
+/products?q=..\..\windows\system32\cmd.exe,1
+/javascript:alert(1),1
+/images/logo.png?q=admin' --,1
+/products?session=xyz,0
+"/login?q=UNION SELECT user, password FROM users",1
+/images/logo.png?q=' OR 1=1 --,1
+/assets/style.css?category=books,0
+/about?id=5000,0
+/about?id=2250,0
+/%00%00%00,1
+/contact?category=books,0
+/home?q=search,0
+/api/user?id=4719,0
+/assets/style.css,0
+/home?page=1,0
+/&& netstat -an,1
+/products?id=7469,0
+/dashboard?q=%00%00%00,1
+"/UNION SELECT user, password FROM users",1
+/api/user?q=%00%00%00,1
+/' OR '1'='1,1
+/about?session=xyz,0
+/products,0
+/contact,0
+/' OR 1=1 --,1
+/javascript:alert(1),1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/; DROP TABLE students,1
+/login?id=614,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/dashboard?session=xyz,0
+/assets/style.css?q=javascript:alert(1),1
+/api/user?page=1,0
+"/UNION SELECT user, password FROM users",1
+/dashboard?session=xyz,0
+/products?id=3550,0
+/contact?id=3041,0
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/about?session=xyz,0
+/images/logo.png?session=xyz,0
+/%00%00%00,1
+/' OR 1=1 --,1
+/images/logo.png?category=books,0
+/| whoami,1
+/home?id=9885,0
+/login?q=search,0
+/products?page=1,0
+/login?category=books,0
+/home?q=%00%00%00,1
+/api/user?id=7406,0
+/images/logo.png?session=xyz,0
+/login?id=2598,0
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/home?page=1,0
+/api/user?q=search,0
+/login?q=&& netstat -an,1
+"/UNION SELECT user, password FROM users",1
+/products?q=<script>alert(1)</script>,1
+/assets/style.css?q=search,0
+/assets/style.css?q=../../../../etc/passwd,1
+/assets/style.css?q=admin' --,1
+/products,0
+/api/user?q=$$$$$$$$$$$$,1
+/&& netstat -an,1
+/contact?page=1,0
+/dashboard?q=../../../../etc/passwd,1
+/home?category=books,0
+/; DROP TABLE students,1
+/home?page=1,0
+/assets/style.css?q=../../../../etc/passwd,1
+/contact?q=search,0
+"/products?q=UNION SELECT user, password FROM users",1
+/assets/style.css?q=search,0
+/images/logo.png?session=xyz,0
+/about?id=6395,0
+/products?category=books,0
+/dashboard?q=; cat /etc/passwd,1
+/home?id=2316,0
+/; DROP TABLE students,1
+/api/user?page=1,0
+/; DROP TABLE students,1
+/; DROP TABLE students,1
+/about?id=9199,0
+/login?q=..\..\windows\system32\cmd.exe,1
+/../../../../etc/passwd,1
+/| whoami,1
+/' OR 1=1 --,1
+/login?q=$$$$$$$$$$$$,1
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/api/user?session=xyz,0
+/home?q=search,0
+/assets/style.css,0
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?id=6430,0
+/home?page=1,0
+/login?id=8397,0
+/assets/style.css?q=search,0
+/products?q=search,0
+/products?page=1,0
+/images/logo.png?id=3118,0
+/javascript:alert(1),1
+/api/user?id=1544,0
+/api/user?session=xyz,0
+/home?q=..\..\windows\system32\cmd.exe,1
+/products?q=javascript:alert(1),1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/&& netstat -an,1
+/' OR 1=1 --,1
+/products,0
+/dashboard?q=javascript:alert(1),1
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png?q=search,0
+/' OR '1'='1,1
+/<script>alert(1)</script>,1
+/products?page=1,0
+/login?q=javascript:alert(1),1
+/api/user?page=1,0
+/products?id=7670,0
+/images/logo.png?category=books,0
+/products?page=1,0
+/assets/style.css,0
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/dashboard?id=8057,0
+/contact?page=1,0
+/products?page=1,0
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/admin' --,1
+/admin' --,1
+/login?session=xyz,0
+/' OR '1'='1,1
+/dashboard?session=xyz,0
+/images/logo.png?session=xyz,0
+/images/logo.png?q=$$$$$$$$$$$$,1
+/..\..\windows\system32\cmd.exe,1
+/<script>alert(1)</script>,1
+/about?category=books,0
+/home?id=4818,0
+/products?q=javascript:alert(1),1
+/products?category=books,0
+/products?id=3958,0
+/about?session=xyz,0
+/' OR '1'='1,1
+/login,0
+/assets/style.css?category=books,0
+/dashboard,0
+/$$$$$$$$$$$$,1
+/../../../../etc/passwd,1
+/products?session=xyz,0
+/images/logo.png?category=books,0
+/login?session=xyz,0
+/images/logo.png?session=xyz,0
+/login?q=search,0
+/contact?q=; cat /etc/passwd,1
+/; cat /etc/passwd,1
+/api/user?page=1,0
+/about?id=1082,0
+/api/user?q=search,0
+/' OR '1'='1,1
+/; cat /etc/passwd,1
+/dashboard?category=books,0
+/assets/style.css?q=' OR 1=1 --,1
+/$$$$$$$$$$$$,1
+/api/user?category=books,0
+/login?q=search,0
+/about?page=1,0
+"/UNION SELECT user, password FROM users",1
+/api/user?id=1965,0
+/dashboard?session=xyz,0
+/api/user?q=$$$$$$$$$$$$,1
+/contact?page=1,0
+/about?id=9987,0
+/about?session=xyz,0
+/products?q=search,0
+/login?session=xyz,0
+/api/user?category=books,0
+"/about?q=UNION SELECT user, password FROM users",1
+/dashboard?q=<script>alert(1)</script>,1
+/contact?page=1,0
+/' OR 1=1 --,1
+/home?q=search,0
+/&& netstat -an,1
+/api/user?category=books,0
+/dashboard?page=1,0
+/products?category=books,0
+/contact?id=6308,0
+/dashboard?q=&& netstat -an,1
+/home,0
+/login,0
+/contact?q=search,0
+/&& netstat -an,1
+/about?page=1,0
+/<img src=x onerror=alert('hacked')>,1
+/about,0
+/home?q=; cat /etc/passwd,1
+/| whoami,1
+/images/logo.png?q=; DROP TABLE students,1
+/products,0
+/dashboard?page=1,0
+/products,0
+/dashboard?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/api/user?q=../../../../etc/passwd,1
+/about?session=xyz,0
+/admin' --,1
+/products?q=$$$$$$$$$$$$,1
+/home?q=<script>alert(1)</script>,1
+/home?q=..\..\windows\system32\cmd.exe,1
+/products?session=xyz,0
+/home?session=xyz,0
+/contact?category=books,0
+/; DROP TABLE students,1
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?category=books,0
+/about?id=8095,0
+/login?page=1,0
+/..\..\windows\system32\cmd.exe,1
+/../../../../etc/passwd,1
+/contact?q=search,0
+/dashboard?q=search,0
+/home?id=2327,0
+/dashboard?id=2616,0
+/api/user?q=' OR '1'='1,1
+/' OR 1=1 --,1
+/images/logo.png?session=xyz,0
+/about?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png?session=xyz,0
+/$$$$$$$$$$$$,1
+/contact,0
+/..\..\windows\system32\cmd.exe,1
+/dashboard?q=&& netstat -an,1
+/images/logo.png?page=1,0
+/contact?q=..\..\windows\system32\cmd.exe,1
+/home?id=1487,0
+/contact,0
+/login?category=books,0
+/../../../../etc/passwd,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/javascript:alert(1),1
+/assets/style.css?q=search,0
+/contact?q=search,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/api/user?category=books,0
+/about?id=4270,0
+/assets/style.css?id=4329,0
+/images/logo.png?id=6362,0
+/login?id=4144,0
+/contact?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?session=xyz,0
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/about?q=' OR 1=1 --,1
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?q=$$$$$$$$$$$$,1
+/assets/style.css?category=books,0
+/products?q=search,0
+/login?q=%00%00%00,1
+/| whoami,1
+/%00%00%00,1
+/login,0
+/about?q=; DROP TABLE students,1
+/../../../../etc/passwd,1
+/products?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/| whoami,1
+/<img src=x onerror=alert('hacked')>,1
+/dashboard?id=8176,0
+/images/logo.png?q=' OR 1=1 --,1
+/$$$$$$$$$$$$,1
+/dashboard?page=1,0
+/admin' --,1
+/contact?category=books,0
+/images/logo.png?q=search,0
+/images/logo.png?q=' OR '1'='1,1
+/&& netstat -an,1
+/about?category=books,0
+/about?q=' OR 1=1 --,1
+/javascript:alert(1),1
+/images/logo.png?id=6081,0
+/home?q=javascript:alert(1),1
+/api/user,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/; cat /etc/passwd,1
+/home?category=books,0
+/dashboard?q=search,0
+/login?page=1,0
+/assets/style.css?q=search,0
+/api/user?page=1,0
+/assets/style.css?page=1,0
+/about?session=xyz,0
+/| whoami,1
+/home?id=4340,0
+"/UNION SELECT user, password FROM users",1
+/<script>alert(1)</script>,1
+/dashboard?page=1,0
+/images/logo.png?page=1,0
+/$$$$$$$$$$$$,1
+/contact?q=search,0
+/about?category=books,0
+/api/user?q=| whoami,1
+"/UNION SELECT user, password FROM users",1
+/login?id=1499,0
+/javascript:alert(1),1
+"/login?q=UNION SELECT user, password FROM users",1
+/<img src=x onerror=alert('hacked')>,1
+/' OR 1=1 --,1
+/' OR '1'='1,1
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/assets/style.css?q=../../../../etc/passwd,1
+/assets/style.css?q=search,0
+/about?id=414,0
+/about?q=| whoami,1
+/images/logo.png?id=7620,0
+/..\..\windows\system32\cmd.exe,1
+/javascript:alert(1),1
+/&& netstat -an,1
+/images/logo.png?session=xyz,0
+/contact?page=1,0
+/images/logo.png?q=; cat /etc/passwd,1
+/assets/style.css?page=1,0
+/products?q=' OR 1=1 --,1
+/home,0
+/login?q=| whoami,1
+/home,0
+/' OR '1'='1,1
+/<img src=x onerror=alert('hacked')>,1
+/products?page=1,0
+/login?id=8896,0
+/..\..\windows\system32\cmd.exe,1
+/../../../../etc/passwd,1
+/dashboard?session=xyz,0
+/%00%00%00,1
+/products?id=7158,0
+/images/logo.png?q=| whoami,1
+/contact?q=$$$$$$$$$$$$,1
+/login?page=1,0
+/contact?session=xyz,0
+/dashboard?q=admin' --,1
+/assets/style.css,0
+/contact?q=search,0
+/about?q=; cat /etc/passwd,1
+/products?id=653,0
+/about,0
+/assets/style.css?q=| whoami,1
+/products?id=9184,0
+/login?page=1,0
+/dashboard?page=1,0
+/%00%00%00,1
+/about?category=books,0
+/images/logo.png?id=6376,0
+/dashboard?q=search,0
+/api/user?q=../../../../etc/passwd,1
+"/UNION SELECT user, password FROM users",1
+/' OR 1=1 --,1
+/about?id=5333,0
+/about?q=search,0
+/login,0
+/contact?session=xyz,0
+/products?id=9325,0
+/; cat /etc/passwd,1
+/$$$$$$$$$$$$,1
+/assets/style.css?page=1,0
+/about?q=admin' --,1
+/dashboard?q=; DROP TABLE students,1
+/admin' --,1
+/products?id=1900,0
+/login?q=search,0
+/images/logo.png?id=4179,0
+/%00%00%00,1
+/home?q=&& netstat -an,1
+/home?page=1,0
+/api/user?q=; DROP TABLE students,1
+/dashboard?q=search,0
+/products?session=xyz,0
+/login?category=books,0
+/products,0
+/$$$$$$$$$$$$,1
+/api/user?q=%00%00%00,1
+/<img src=x onerror=alert('hacked')>,1
+/; cat /etc/passwd,1
+/images/logo.png?session=xyz,0
+"/contact?q=UNION SELECT user, password FROM users",1
+/; DROP TABLE students,1
+/$$$$$$$$$$$$,1
+/&& netstat -an,1
+/assets/style.css?id=8486,0
+/home?session=xyz,0
+/admin' --,1
+/login?q=%00%00%00,1
+/; DROP TABLE students,1
+/<script>alert(1)</script>,1
+/../../../../etc/passwd,1
+/images/logo.png?q=<script>alert(1)</script>,1
+/home?category=books,0
+/| whoami,1
+/contact?q=' OR '1'='1,1
+/..\..\windows\system32\cmd.exe,1
+/login?q=search,0
+/login,0
+/%00%00%00,1
+/home?category=books,0
+/api/user?id=6337,0
+/<img src=x onerror=alert('hacked')>,1
+/contact?id=7161,0
+/login?category=books,0
+/home?page=1,0
+/about?q=admin' --,1
+/javascript:alert(1),1
+/products,0
+/dashboard?page=1,0
+/dashboard?session=xyz,0
+/admin' --,1
+/assets/style.css?q=| whoami,1
+/api/user?id=4682,0
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/&& netstat -an,1
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=../../../../etc/passwd,1
+/assets/style.css?id=7292,0
+/dashboard?q=' OR 1=1 --,1
+/dashboard,0
+/; cat /etc/passwd,1
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?q=search,0
+/assets/style.css?q=search,0
+/| whoami,1
+/images/logo.png?q=&& netstat -an,1
+/contact?page=1,0
+/about?q=%00%00%00,1
+/api/user?category=books,0
+/home?id=3293,0
+/api/user?q=search,0
+/products?q=$$$$$$$$$$$$,1
+/login?q=%00%00%00,1
+/assets/style.css?category=books,0
+/api/user?page=1,0
+/; cat /etc/passwd,1
+/; DROP TABLE students,1
+/about?id=5873,0
+/about?q=' OR 1=1 --,1
+/about,0
+/home?session=xyz,0
+/' OR 1=1 --,1
+/api/user?session=xyz,0
+/images/logo.png?q=search,0
+/login?q=| whoami,1
+/../../../../etc/passwd,1
+/login,0
+/products?id=3850,0
+/%00%00%00,1
+/login?session=xyz,0
+/home,0
+/products?category=books,0
+/assets/style.css?category=books,0
+/home?q=search,0
+/; DROP TABLE students,1
+/about?category=books,0
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/dashboard?page=1,0
+/dashboard,0
+/<img src=x onerror=alert('hacked')>,1
+/dashboard?q=../../../../etc/passwd,1
+/contact?category=books,0
+/../../../../etc/passwd,1
+/about?id=7779,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/api/user?q=<img src=x onerror=alert('hacked')>,1
+/dashboard,0
+/login,0
+/images/logo.png?q=../../../../etc/passwd,1
+/login?q=; DROP TABLE students,1
+/about?category=books,0
+/$$$$$$$$$$$$,1
+/api/user?q=javascript:alert(1),1
+/' OR 1=1 --,1
+/' OR '1'='1,1
+/about?q=<img src=x onerror=alert('hacked')>,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=<script>alert(1)</script>,1
+/$$$$$$$$$$$$,1
+/<script>alert(1)</script>,1
+/assets/style.css?id=2841,0
+/dashboard?session=xyz,0
+/assets/style.css?id=6085,0
+/contact?q=<script>alert(1)</script>,1
+/images/logo.png?category=books,0
+/home,0
+/products?q=<img src=x onerror=alert('hacked')>,1
+/assets/style.css?page=1,0
+/dashboard?q=admin' --,1
+/home?category=books,0
+/$$$$$$$$$$$$,1
+/home?id=6051,0
+/images/logo.png?page=1,0
+/dashboard?session=xyz,0
+/dashboard?q=&& netstat -an,1
+/../../../../etc/passwd,1
+/javascript:alert(1),1
+/' OR 1=1 --,1
+/images/logo.png?q=' OR '1'='1,1
+/contact?q=../../../../etc/passwd,1
+/images/logo.png,0
+/assets/style.css?q=$$$$$$$$$$$$,1
+/about?page=1,0
+/api/user?category=books,0
+/about?category=books,0
+/api/user?session=xyz,0
+/login?q=<script>alert(1)</script>,1
+/; cat /etc/passwd,1
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/<img src=x onerror=alert('hacked')>,1
+/home?q=../../../../etc/passwd,1
+/%00%00%00,1
+/<script>alert(1)</script>,1
+/contact?session=xyz,0
+/javascript:alert(1),1
+/assets/style.css?q=| whoami,1
+/assets/style.css?q=$$$$$$$$$$$$,1
+/dashboard?page=1,0
+/api/user?q=&& netstat -an,1
+/assets/style.css?category=books,0
+/assets/style.css?q=$$$$$$$$$$$$,1
+/login?q=<script>alert(1)</script>,1
+/' OR 1=1 --,1
+/javascript:alert(1),1
+/home?q=&& netstat -an,1
+/contact?q=search,0
+/api/user?q=search,0
+/$$$$$$$$$$$$,1
+/api/user,0
+/products?page=1,0
+/about?id=9692,0
+/login?session=xyz,0
+/login?q=$$$$$$$$$$$$,1
+/about?q=%00%00%00,1
+/assets/style.css?q=search,0
+/home?session=xyz,0
+/assets/style.css?category=books,0
+/contact?id=7779,0
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/about?q=%00%00%00,1
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?q=; DROP TABLE students,1
+/dashboard?page=1,0
+/; cat /etc/passwd,1
+/api/user,0
+/api/user?q=search,0
+/login?category=books,0
+/&& netstat -an,1
+/api/user?id=3148,0
+/images/logo.png?id=6702,0
+/dashboard?q=../../../../etc/passwd,1
+/; cat /etc/passwd,1
+/assets/style.css?session=xyz,0
+/api/user,0
+/login?q=../../../../etc/passwd,1
+/dashboard?q=; cat /etc/passwd,1
+/<script>alert(1)</script>,1
+/dashboard?q=admin' --,1
+/home?session=xyz,0
+/assets/style.css?q=$$$$$$$$$$$$,1
+/home?id=3967,0
+/products?session=xyz,0
+/&& netstat -an,1
+/api/user?category=books,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?id=6916,0
+/home?q=search,0
+/api/user?id=2792,0
+/about?session=xyz,0
+/about?id=7058,0
+/products?page=1,0
+/contact?category=books,0
+/api/user?q=search,0
+/dashboard?session=xyz,0
+/about?q=search,0
+/products?q=search,0
+/about?id=6167,0
+/| whoami,1
+/api/user?id=796,0
+/about?q=' OR '1'='1,1
+/contact?category=books,0
+/login?q=search,0
+/dashboard?q=search,0
+/api/user?q=<script>alert(1)</script>,1
+/images/logo.png?q=search,0
+/; DROP TABLE students,1
+/api/user?q=search,0
+/login?q=<img src=x onerror=alert('hacked')>,1
+/login?q=| whoami,1
+/home?page=1,0
+/../../../../etc/passwd,1
+/home?q=../../../../etc/passwd,1
+/api/user?q=; DROP TABLE students,1
+/api/user?category=books,0
+/assets/style.css?session=xyz,0
+/home?q=; DROP TABLE students,1
+/login?id=5474,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/; cat /etc/passwd,1
+/dashboard?category=books,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css,0
+/images/logo.png?session=xyz,0
+/&& netstat -an,1
+/home?q=../../../../etc/passwd,1
+/<img src=x onerror=alert('hacked')>,1
+/home?q=search,0
+/products?id=4295,0
+/products?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?category=books,0
+/api/user,0
+/api/user?q=' OR 1=1 --,1
+/contact?q=<script>alert(1)</script>,1
+/home?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/products?session=xyz,0
+/..\..\windows\system32\cmd.exe,1
+/dashboard?q=search,0
+/api/user?session=xyz,0
+/assets/style.css?q=%00%00%00,1
+/admin' --,1
+/login?q=<img src=x onerror=alert('hacked')>,1
+/api/user?q=<script>alert(1)</script>,1
+/dashboard?q=| whoami,1
+/about?q=search,0
+/home?q=<script>alert(1)</script>,1
+/about?q=search,0
+/api/user?q=| whoami,1
+/contact?category=books,0
+/about?category=books,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?category=books,0
+/contact?session=xyz,0
+/login?session=xyz,0
+/about?q=| whoami,1
+/login?q=<img src=x onerror=alert('hacked')>,1
+/products,0
+/dashboard,0
+/login?q=javascript:alert(1),1
+/about?q=' OR 1=1 --,1
+/api/user?q=javascript:alert(1),1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/$$$$$$$$$$$$,1
+/about?q=' OR 1=1 --,1
+/| whoami,1
+/about?q=$$$$$$$$$$$$,1
+/assets/style.css?category=books,0
+/login?q=' OR '1'='1,1
+/products?q=; DROP TABLE students,1
+/images/logo.png?q=&& netstat -an,1
+/assets/style.css?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/products?id=4756,0
+/; DROP TABLE students,1
+/api/user?q=%00%00%00,1
+/..\..\windows\system32\cmd.exe,1
+/' OR 1=1 --,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?q=%00%00%00,1
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/dashboard?q=search,0
+/api/user?q=; cat /etc/passwd,1
+/images/logo.png?category=books,0
+/; DROP TABLE students,1
+/about?q=search,0
+/api/user?session=xyz,0
+/; DROP TABLE students,1
+/<img src=x onerror=alert('hacked')>,1
+/about?q=%00%00%00,1
+/products?category=books,0
+/about?id=389,0
+/login?session=xyz,0
+/| whoami,1
+/' OR 1=1 --,1
+/' OR '1'='1,1
+/%00%00%00,1
+/images/logo.png?q=search,0
+/contact?id=7262,0
+/products,0
+/assets/style.css?q=' OR 1=1 --,1
+/$$$$$$$$$$$$,1
+/&& netstat -an,1
+/javascript:alert(1),1
+/images/logo.png?id=7465,0
+/assets/style.css?q=&& netstat -an,1
+/about?id=139,0
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/$$$$$$$$$$$$,1
+/..\..\windows\system32\cmd.exe,1
+/home?q=$$$$$$$$$$$$,1
+/contact?q=search,0
+/api/user?category=books,0
+/api/user?id=5227,0
+/contact?q=search,0
+/; cat /etc/passwd,1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/dashboard?q=../../../../etc/passwd,1
+/home?id=4543,0
+/api/user?q=search,0
+/home?session=xyz,0
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/contact?q=search,0
+/contact?q=search,0
+/login,0
+/products?q=; cat /etc/passwd,1
+/&& netstat -an,1
+/api/user?q=| whoami,1
+/images/logo.png?q=; DROP TABLE students,1
+/products?q=..\..\windows\system32\cmd.exe,1
+/assets/style.css?q=search,0
+/api/user?category=books,0
+/login?q=..\..\windows\system32\cmd.exe,1
+/about,0
+/login?id=5922,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/dashboard,0
+/images/logo.png,0
+/login,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact,0
+/contact?page=1,0
+/api/user?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/home?q=| whoami,1
+/dashboard,0
+/login?id=9131,0
+"/about?q=UNION SELECT user, password FROM users",1
+/dashboard?category=books,0
+/login?category=books,0
+/home?id=7529,0
+"/UNION SELECT user, password FROM users",1
+/login?q=search,0
+/..\..\windows\system32\cmd.exe,1
+/home,0
+/api/user?id=8668,0
+/products?category=books,0
+/images/logo.png?session=xyz,0
+/products?q=admin' --,1
+/contact?session=xyz,0
+/; DROP TABLE students,1
+/api/user?category=books,0
+/products?q=javascript:alert(1),1
+/dashboard?q=<script>alert(1)</script>,1
+/api/user?q=javascript:alert(1),1
+/| whoami,1
+/about?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/images/logo.png?session=xyz,0
+/$$$$$$$$$$$$,1
+/home?session=xyz,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/$$$$$$$$$$$$,1
+/dashboard?page=1,0
+/products?q=; cat /etc/passwd,1
+/api/user?q=../../../../etc/passwd,1
+/about?q=search,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?category=books,0
+/$$$$$$$$$$$$,1
+/%00%00%00,1
+/products?category=books,0
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/contact?page=1,0
+/images/logo.png?id=9438,0
+/assets/style.css?id=4347,0
+/' OR '1'='1,1
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?page=1,0
+/home?session=xyz,0
+/login?q=javascript:alert(1),1
+/%00%00%00,1
+/images/logo.png?session=xyz,0
+/..\..\windows\system32\cmd.exe,1
+/dashboard?q=' OR 1=1 --,1
+/contact?q=; DROP TABLE students,1
+/home,0
+/images/logo.png?category=books,0
+/products,0
+/<script>alert(1)</script>,1
+/products?q=; cat /etc/passwd,1
+/contact?session=xyz,0
+/images/logo.png?session=xyz,0
+/home?id=8616,0
+/javascript:alert(1),1
+/home?q=search,0
+/images/logo.png?session=xyz,0
+/images/logo.png?q=%00%00%00,1
+/home?id=269,0
+/images/logo.png?id=5051,0
+/; cat /etc/passwd,1
+/dashboard?q=%00%00%00,1
+/&& netstat -an,1
+/contact?q=' OR '1'='1,1
+/contact?session=xyz,0
+/images/logo.png,0
+/home?session=xyz,0
+/login?page=1,0
+/dashboard?category=books,0
+/assets/style.css?id=1346,0
+/api/user?q=' OR '1'='1,1
+/assets/style.css?category=books,0
+/contact?category=books,0
+/; cat /etc/passwd,1
+/api/user?session=xyz,0
+/home?q=' OR 1=1 --,1
+/contact,0
+/login?session=xyz,0
+/contact?page=1,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/products?q=%00%00%00,1
+/about?session=xyz,0
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?page=1,0
+/about?q=..\..\windows\system32\cmd.exe,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/../../../../etc/passwd,1
+/contact?id=2471,0
+/' OR '1'='1,1
+/assets/style.css?category=books,0
+"/products?q=UNION SELECT user, password FROM users",1
+/login?q=../../../../etc/passwd,1
+/$$$$$$$$$$$$,1
+/api/user?page=1,0
+/dashboard?q=search,0
+/home?q=' OR 1=1 --,1
+/products?q=; cat /etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?category=books,0
+/products?session=xyz,0
+/home?q=search,0
+/images/logo.png?category=books,0
+/assets/style.css,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+"/login?q=UNION SELECT user, password FROM users",1
+/$$$$$$$$$$$$,1
+/home?q=admin' --,1
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/login?q=; DROP TABLE students,1
+/dashboard?page=1,0
+/api/user?id=1574,0
+/login?session=xyz,0
+/dashboard?q=; DROP TABLE students,1
+/login?page=1,0
+/assets/style.css?category=books,0
+/' OR 1=1 --,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/javascript:alert(1),1
+/contact?page=1,0
+/; DROP TABLE students,1
+/&& netstat -an,1
+/home,0
+/$$$$$$$$$$$$,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?q=' OR '1'='1,1
+/contact?q=| whoami,1
+/<img src=x onerror=alert('hacked')>,1
+/&& netstat -an,1
+"/UNION SELECT user, password FROM users",1
+/dashboard?page=1,0
+/contact?q=search,0
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?category=books,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css?q=| whoami,1
+/login?q=$$$$$$$$$$$$,1
+/assets/style.css?page=1,0
+/; cat /etc/passwd,1
+/about?session=xyz,0
+/images/logo.png,0
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/api/user?category=books,0
+/home?id=5498,0
+/about?q=admin' --,1
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?session=xyz,0
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/products?session=xyz,0
+/products?q=search,0
+/dashboard?q=| whoami,1
+"/UNION SELECT user, password FROM users",1
+/images/logo.png?q=../../../../etc/passwd,1
+/images/logo.png?id=6558,0
+/images/logo.png?session=xyz,0
+/contact?id=3801,0
+/products?category=books,0
+/contact?category=books,0
+/about?session=xyz,0
+/assets/style.css?page=1,0
+/admin' --,1
+/&& netstat -an,1
+/products?q=search,0
+/dashboard?q=; cat /etc/passwd,1
+/about?page=1,0
+/contact?q=; cat /etc/passwd,1
+/../../../../etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+/javascript:alert(1),1
+/images/logo.png,0
+/api/user?q=| whoami,1
+/; DROP TABLE students,1
+"/home?q=UNION SELECT user, password FROM users",1
+/dashboard?category=books,0
+/assets/style.css?q=search,0
+/$$$$$$$$$$$$,1
+"/about?q=UNION SELECT user, password FROM users",1
+/login?q=&& netstat -an,1
+/assets/style.css?page=1,0
+/..\..\windows\system32\cmd.exe,1
+/products?q=' OR 1=1 --,1
+/images/logo.png,0
+/contact?category=books,0
+/dashboard?category=books,0
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/| whoami,1
+/products,0
+/assets/style.css?q=search,0
+/images/logo.png?q=<img src=x onerror=alert('hacked')>,1
+/..\..\windows\system32\cmd.exe,1
+/images/logo.png?page=1,0
+/images/logo.png?q=<script>alert(1)</script>,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/products?session=xyz,0
+/dashboard?q=search,0
+/home?q=| whoami,1
+/contact?q=; cat /etc/passwd,1
+/contact?q=search,0
+/products?id=7194,0
+/assets/style.css?id=3148,0
+/home?category=books,0
+/products?id=892,0
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/contact?page=1,0
+/%00%00%00,1
+/api/user?q=| whoami,1
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?category=books,0
+/home?id=1526,0
+/%00%00%00,1
+/contact?q=' OR 1=1 --,1
+/about?q=search,0
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?page=1,0
+/' OR '1'='1,1
+/login?q=; DROP TABLE students,1
+/$$$$$$$$$$$$,1
+/api/user?category=books,0
+/login?page=1,0
+/' OR 1=1 --,1
+/about?session=xyz,0
+/assets/style.css?session=xyz,0
+/home?q=search,0
+/contact?q=&& netstat -an,1
+/api/user?session=xyz,0
+/dashboard,0
+/contact,0
+/products,0
+/home?id=7137,0
+/login?page=1,0
+/home?page=1,0
+/contact?q=search,0
+/api/user?q=search,0
+/..\..\windows\system32\cmd.exe,1
+/contact?q=$$$$$$$$$$$$,1
+/assets/style.css?q=../../../../etc/passwd,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?session=xyz,0
+/api/user?q=search,0
+/contact?session=xyz,0
+/admin' --,1
+/assets/style.css?page=1,0
+/assets/style.css?id=7227,0
+/login?page=1,0
+/dashboard?id=1432,0
+/products?q=| whoami,1
+/home?q=search,0
+/dashboard?session=xyz,0
+/javascript:alert(1),1
+/about?session=xyz,0
+/dashboard,0
+/home?q=search,0
+/dashboard?q=; DROP TABLE students,1
+/assets/style.css?category=books,0
+/images/logo.png?q=' OR 1=1 --,1
+/dashboard,0
+/..\..\windows\system32\cmd.exe,1
+/contact?id=9588,0
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?page=1,0
+/images/logo.png?category=books,0
+/' OR 1=1 --,1
+/about?session=xyz,0
+/' OR 1=1 --,1
+/api/user?id=9732,0
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/home?q=| whoami,1
+/' OR '1'='1,1
+/images/logo.png?q=' OR '1'='1,1
+/products?q=search,0
+/about?session=xyz,0
+/products?q=..\..\windows\system32\cmd.exe,1
+/assets/style.css?id=4345,0
+/javascript:alert(1),1
+/assets/style.css?q=javascript:alert(1),1
+/login?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about,0
+/images/logo.png?q=$$$$$$$$$$$$,1
+/admin' --,1
+/dashboard,0
+/../../../../etc/passwd,1
+/; DROP TABLE students,1
+/home,0
+/products?q=' OR '1'='1,1
+/about?q=' OR '1'='1,1
+/images/logo.png?category=books,0
+/assets/style.css?page=1,0
+/' OR '1'='1,1
+/; DROP TABLE students,1
+/login,0
+/home?q=search,0
+/products?q=<script>alert(1)</script>,1
+/api/user?q=<script>alert(1)</script>,1
+/' OR '1'='1,1
+/<img src=x onerror=alert('hacked')>,1
+/dashboard?q=| whoami,1
+/contact?category=books,0
+/dashboard?q=; cat /etc/passwd,1
+/contact?q=search,0
+/images/logo.png?category=books,0
+/api/user?id=8906,0
+/contact?category=books,0
+/products?id=5626,0
+/products?q=' OR '1'='1,1
+/dashboard?q=<script>alert(1)</script>,1
+/' OR '1'='1,1
+/login?q=javascript:alert(1),1
+/dashboard?page=1,0
+/assets/style.css?category=books,0
+/dashboard?session=xyz,0
+/home?q=search,0
+/login?id=8508,0
+/dashboard,0
+/assets/style.css?q=<script>alert(1)</script>,1
+/login?q=; DROP TABLE students,1
+/' OR 1=1 --,1
+/dashboard?q=%00%00%00,1
+/..\..\windows\system32\cmd.exe,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?page=1,0
+/contact?page=1,0
+/contact?page=1,0
+/assets/style.css?page=1,0
+/products,0
+/dashboard?page=1,0
+/home?session=xyz,0
+/home?q=<img src=x onerror=alert('hacked')>,1
+/assets/style.css?id=5974,0
+/products?id=1494,0
+/; DROP TABLE students,1
+/about?q=search,0
+/images/logo.png?q=search,0
+/contact?q=' OR '1'='1,1
+/images/logo.png?id=261,0
+"/UNION SELECT user, password FROM users",1
+/; cat /etc/passwd,1
+/dashboard?category=books,0
+/about?q=| whoami,1
+/$$$$$$$$$$$$,1
+/&& netstat -an,1
+/<img src=x onerror=alert('hacked')>,1
+/$$$$$$$$$$$$,1
+/login?id=2863,0
+/assets/style.css?session=xyz,0
+/about?page=1,0
+/login?page=1,0
+/dashboard?category=books,0
+/login?q=..\..\windows\system32\cmd.exe,1
+/api/user?id=3109,0
+/../../../../etc/passwd,1
+/home?category=books,0
+/| whoami,1
+/%00%00%00,1
+/dashboard?id=3660,0
+/api/user?q=javascript:alert(1),1
+/assets/style.css?q=javascript:alert(1),1
+/dashboard?q=../../../../etc/passwd,1
+/api/user?category=books,0
+/login?q=admin' --,1
+/images/logo.png,0
+/%00%00%00,1
+/login?id=5692,0
+/products?q=| whoami,1
+/login,0
+/assets/style.css?page=1,0
+/contact?session=xyz,0
+/products?id=4990,0
+/login?id=4761,0
+/images/logo.png,0
+/products,0
+/images/logo.png?page=1,0
+/$$$$$$$$$$$$,1
+/api/user?category=books,0
+/about?session=xyz,0
+/images/logo.png?q=<script>alert(1)</script>,1
+/../../../../etc/passwd,1
+/$$$$$$$$$$$$,1
+/home?q=$$$$$$$$$$$$,1
+/dashboard,0
+/contact,0
+/| whoami,1
+/api/user,0
+/home?q=..\..\windows\system32\cmd.exe,1
+/&& netstat -an,1
+/dashboard?q=$$$$$$$$$$$$,1
+/' OR 1=1 --,1
+/about?q=javascript:alert(1),1
+/contact?q=../../../../etc/passwd,1
+/&& netstat -an,1
+/api/user?id=684,0
+/images/logo.png?session=xyz,0
+/api/user?q=admin' --,1
+/images/logo.png?id=8446,0
+/contact?q=search,0
+/dashboard?q=search,0
+/assets/style.css?category=books,0
+/api/user?q=&& netstat -an,1
+/; cat /etc/passwd,1
+/about?q=$$$$$$$$$$$$,1
+/products?q=; DROP TABLE students,1
+/images/logo.png?session=xyz,0
+/products?page=1,0
+/products?q=| whoami,1
+/<img src=x onerror=alert('hacked')>,1
+/javascript:alert(1),1
+/assets/style.css?id=2608,0
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/images/logo.png,0
+/products?category=books,0
+/images/logo.png?q=; DROP TABLE students,1
+/about?q=<script>alert(1)</script>,1
+/admin' --,1
+/products?id=3054,0
+/contact?category=books,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/login,0
+/api/user?page=1,0
+/assets/style.css?id=6704,0
+/api/user?category=books,0
+/contact,0
+/images/logo.png?session=xyz,0
+/api/user?id=4756,0
+/contact?q=search,0
+/images/logo.png?page=1,0
+/&& netstat -an,1
+"/UNION SELECT user, password FROM users",1
+/api/user?session=xyz,0
+/login?id=9085,0
+/products?category=books,0
+/login,0
+"/UNION SELECT user, password FROM users",1
+/%00%00%00,1
+/assets/style.css?q=search,0
+/login?session=xyz,0
+/dashboard,0
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/products?q=| whoami,1
+/api/user?category=books,0
+/assets/style.css?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+"/UNION SELECT user, password FROM users",1
+/api/user?q=' OR 1=1 --,1
+/products?q=..\..\windows\system32\cmd.exe,1
+/home,0
+/products?id=3161,0
+/images/logo.png?q=; cat /etc/passwd,1
+/login?q=search,0
+/api/user?id=9147,0
+/dashboard?q=; cat /etc/passwd,1
+/&& netstat -an,1
+/home?page=1,0
+/contact?q=$$$$$$$$$$$$,1
+/..\..\windows\system32\cmd.exe,1
+/dashboard?session=xyz,0
+/api/user?category=books,0
+/login?q=' OR '1'='1,1
+/images/logo.png?category=books,0
+/images/logo.png?session=xyz,0
+/products?q=| whoami,1
+/products,0
+/images/logo.png?session=xyz,0
+/products?q=search,0
+/assets/style.css?q=; DROP TABLE students,1
+/api/user?q=| whoami,1
+/images/logo.png?q=<script>alert(1)</script>,1
+/about?id=8783,0
+/contact?q=search,0
+/home,0
+/| whoami,1
+/products?q=javascript:alert(1),1
+/api/user?id=2795,0
+/images/logo.png?q=admin' --,1
+/assets/style.css?q=search,0
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/contact?id=808,0
+/login?session=xyz,0
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/login?q=search,0
+/api/user,0
+/../../../../etc/passwd,1
+/assets/style.css?q=<script>alert(1)</script>,1
+/products?q=; DROP TABLE students,1
+/home?id=7991,0
+/about?q=; DROP TABLE students,1
+"/home?q=UNION SELECT user, password FROM users",1
+/products?session=xyz,0
+/../../../../etc/passwd,1
+/api/user,0
+/about?session=xyz,0
+/javascript:alert(1),1
+/dashboard?q=' OR 1=1 --,1
+/dashboard?page=1,0
+/products?session=xyz,0
+/products,0
+/home?q=javascript:alert(1),1
+/' OR 1=1 --,1
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/home?page=1,0
+/admin' --,1
+/' OR 1=1 --,1
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png?q=%00%00%00,1
+/home?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png,0
+/products?q=javascript:alert(1),1
+/about?q=<img src=x onerror=alert('hacked')>,1
+/dashboard?q=search,0
+/| whoami,1
+/<img src=x onerror=alert('hacked')>,1
+/../../../../etc/passwd,1
+/assets/style.css?session=xyz,0
+/api/user?id=9864,0
+/about?q=search,0
+/about,0
+/home?q=$$$$$$$$$$$$,1
+/' OR '1'='1,1
+/<img src=x onerror=alert('hacked')>,1
+/home?q=| whoami,1
+/login?session=xyz,0
+/images/logo.png,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/contact,0
+/%00%00%00,1
+/dashboard?id=1061,0
+/products?q=..\..\windows\system32\cmd.exe,1
+/' OR '1'='1,1
+/contact?category=books,0
+/assets/style.css?category=books,0
+/products?q=; DROP TABLE students,1
+/api/user?category=books,0
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about?session=xyz,0
+/' OR 1=1 --,1
+/login?q=<script>alert(1)</script>,1
+/home?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/images/logo.png?q=search,0
+/login,0
+/images/logo.png?page=1,0
+/products?id=529,0
+/images/logo.png?q=' OR '1'='1,1
+/products?q=| whoami,1
+/dashboard,0
+/home?session=xyz,0
+/assets/style.css?q=search,0
+/images/logo.png?page=1,0
+/' OR '1'='1,1
+/../../../../etc/passwd,1
+/api/user?q=javascript:alert(1),1
+/images/logo.png?session=xyz,0
+/home?q=search,0
+/dashboard?q=<script>alert(1)</script>,1
+/dashboard,0
+/assets/style.css?category=books,0
+/dashboard?page=1,0
+/contact?session=xyz,0
+/login?session=xyz,0
+/images/logo.png?q=search,0
+/products?session=xyz,0
+/dashboard?id=7502,0
+/<img src=x onerror=alert('hacked')>,1
+/about?id=7149,0
+/api/user?q=search,0
+/dashboard?q=search,0
+/login?q=..\..\windows\system32\cmd.exe,1
+/about?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/products?id=3443,0
+/images/logo.png?q=| whoami,1
+/login?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/api/user?session=xyz,0
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/home?q=$$$$$$$$$$$$,1
+/home,0
+/login?category=books,0
+/contact?id=2590,0
+/../../../../etc/passwd,1
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/login?q=search,0
+/products?q=' OR 1=1 --,1
+/dashboard,0
+/api/user?q=search,0
+/&& netstat -an,1
+/contact?page=1,0
+/images/logo.png?session=xyz,0
+/api/user?id=4489,0
+/javascript:alert(1),1
+/home?id=9296,0
+/home?q=' OR '1'='1,1
+/dashboard?session=xyz,0
+/home?id=2740,0
+/about?q=&& netstat -an,1
+/contact?q=' OR 1=1 --,1
+/contact?page=1,0
+/images/logo.png,0
+/products?session=xyz,0
+/dashboard?q=search,0
+/; cat /etc/passwd,1
+"/products?q=UNION SELECT user, password FROM users",1
+/images/logo.png?id=2586,0
+/login?q=search,0
+/' OR 1=1 --,1
+/products?id=5936,0
+/; cat /etc/passwd,1
+/login?q=javascript:alert(1),1
+/' OR '1'='1,1
+/; cat /etc/passwd,1
+/home?q=..\..\windows\system32\cmd.exe,1
+/dashboard,0
+/dashboard?page=1,0
+/products?category=books,0
+/images/logo.png?page=1,0
+"/api/user?q=UNION SELECT user, password FROM users",1
+/about?session=xyz,0
+/&& netstat -an,1
+/products?page=1,0
+/dashboard?q=' OR 1=1 --,1
+/..\..\windows\system32\cmd.exe,1
+/about?q=; DROP TABLE students,1
+/about?q=search,0
+/home?category=books,0
+/about?q=search,0
+/%00%00%00,1
+/assets/style.css?q=; DROP TABLE students,1
+/$$$$$$$$$$$$,1
+/images/logo.png,0
+/about?q=search,0
+/; cat /etc/passwd,1
+/about?session=xyz,0
+/&& netstat -an,1
+/products?q=%00%00%00,1
+/contact?q=<script>alert(1)</script>,1
+/home?q=%00%00%00,1
+/login?q=..\..\windows\system32\cmd.exe,1
+/javascript:alert(1),1
+/dashboard?q=' OR 1=1 --,1
+/api/user?id=4802,0
+/home?id=2869,0
+/about?id=192,0
+/api/user,0
+/login?q=search,0
+/home?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/../../../../etc/passwd,1
+/contact?category=books,0
+/about?page=1,0
+/images/logo.png?q=<script>alert(1)</script>,1
+/; cat /etc/passwd,1
+/about?page=1,0
+/../../../../etc/passwd,1
+/contact?page=1,0
+/api/user?session=xyz,0
+/assets/style.css?id=7782,0
+/| whoami,1
+/products?session=xyz,0
+/images/logo.png?q=; cat /etc/passwd,1
+/dashboard?id=9933,0
+/assets/style.css?q=; DROP TABLE students,1
+/api/user?q=| whoami,1
+/products?q=admin' --,1
+/login?q=search,0
+/login,0
+/&& netstat -an,1
+/about?id=9295,0
+/' OR 1=1 --,1
+/products?page=1,0
+/| whoami,1
+/%00%00%00,1
+/; cat /etc/passwd,1
+/assets/style.css,0
+/&& netstat -an,1
+/api/user?session=xyz,0
+/api/user?page=1,0
+/$$$$$$$$$$$$,1
+/api/user,0
+/%00%00%00,1
+/home?q=..\..\windows\system32\cmd.exe,1
+/%00%00%00,1
+/' OR 1=1 --,1
+/api/user?q=; DROP TABLE students,1
+/about?q=&& netstat -an,1
+/admin' --,1
+/..\..\windows\system32\cmd.exe,1
+/contact,0
+"/UNION SELECT user, password FROM users",1
+/products?q=search,0
+/login?session=xyz,0
+/&& netstat -an,1
+/| whoami,1
+/api/user?category=books,0
+/products?session=xyz,0
+/; DROP TABLE students,1
+/api/user?q=<script>alert(1)</script>,1
+/home?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png?q=| whoami,1
+/api/user?page=1,0
+/&& netstat -an,1
+/' OR 1=1 --,1
+/contact?q=| whoami,1
+/products?id=6822,0
+"/login?q=UNION SELECT user, password FROM users",1
+/contact?id=8102,0
+/images/logo.png?category=books,0
+/; cat /etc/passwd,1
+/login?q=javascript:alert(1),1
+/images/logo.png?id=6231,0
+/dashboard?q=| whoami,1
+/images/logo.png?id=5407,0
+/api/user?category=books,0
+/assets/style.css?q=search,0
+/products?q=search,0
+/dashboard?page=1,0
+/%00%00%00,1
+/contact?q=&& netstat -an,1
+/home?q=<img src=x onerror=alert('hacked')>,1
+/login,0
+/api/user?page=1,0
+/dashboard?q=%00%00%00,1
+/api/user?session=xyz,0
+/home?q=search,0
+/api/user,0
+/<script>alert(1)</script>,1
+/assets/style.css?q=admin' --,1
+/<img src=x onerror=alert('hacked')>,1
+/javascript:alert(1),1
+/&& netstat -an,1
+/images/logo.png?session=xyz,0
+/contact?q=search,0
+/assets/style.css?category=books,0
+/<script>alert(1)</script>,1
+/; cat /etc/passwd,1
+/about?session=xyz,0
+/dashboard,0
+/api/user,0
+/images/logo.png,0
+/%00%00%00,1
+/contact?category=books,0
+/javascript:alert(1),1
+/contact?category=books,0
+"/products?q=UNION SELECT user, password FROM users",1
+/api/user?q=&& netstat -an,1
+/| whoami,1
+/about,0
+/contact?id=2910,0
+/' OR '1'='1,1
+/contact?session=xyz,0
+/login?id=2157,0
+/images/logo.png?page=1,0
+/dashboard?q=| whoami,1
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?category=books,0
+/home?page=1,0
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/products?q=search,0
+/api/user?q=%00%00%00,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/..\..\windows\system32\cmd.exe,1
+/api/user?session=xyz,0
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?q=%00%00%00,1
+/images/logo.png?q=&& netstat -an,1
+/dashboard?q=<script>alert(1)</script>,1
+"/UNION SELECT user, password FROM users",1
+/contact?session=xyz,0
+/dashboard?q=search,0
+/about?category=books,0
+/home?q=search,0
+/&& netstat -an,1
+/&& netstat -an,1
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?id=955,0
+"/about?q=UNION SELECT user, password FROM users",1
+/assets/style.css?session=xyz,0
+/images/logo.png?id=9430,0
+/images/logo.png?q=admin' --,1
+/dashboard?category=books,0
+/api/user?q=search,0
+/dashboard?q=<script>alert(1)</script>,1
+/dashboard?id=7446,0
+/about?q=$$$$$$$$$$$$,1
+/home?q=../../../../etc/passwd,1
+/images/logo.png?q=javascript:alert(1),1
+/about?q=; cat /etc/passwd,1
+/home?category=books,0
+/assets/style.css?q=' OR 1=1 --,1
+/' OR 1=1 --,1
+/about?q=$$$$$$$$$$$$,1
+/assets/style.css?session=xyz,0
+/login?q=<img src=x onerror=alert('hacked')>,1
+/' OR 1=1 --,1
+/dashboard,0
+/home,0
+/' OR '1'='1,1
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css,0
+/&& netstat -an,1
+/assets/style.css?q=| whoami,1
+/home,0
+/home?q=; DROP TABLE students,1
+/products?session=xyz,0
+/home,0
+/..\..\windows\system32\cmd.exe,1
+/about?q=$$$$$$$$$$$$,1
+/admin' --,1
+"/UNION SELECT user, password FROM users",1
+"/UNION SELECT user, password FROM users",1
+/contact?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/' OR '1'='1,1
+/products?q=search,0
+/contact?q=&& netstat -an,1
+/login?session=xyz,0
+/; DROP TABLE students,1
+/home?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/home?q=search,0
+/products?q=<script>alert(1)</script>,1
+/..\..\windows\system32\cmd.exe,1
+/admin' --,1
+/home?session=xyz,0
+/about?q=search,0
+/contact?q=admin' --,1
+/dashboard?category=books,0
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/; cat /etc/passwd,1
+/&& netstat -an,1
+/about,0
+/products?q=<img src=x onerror=alert('hacked')>,1
+/login?q=search,0
+/products?q=search,0
+/' OR '1'='1,1
+/assets/style.css?page=1,0
+/<script>alert(1)</script>,1
+/products?q=search,0
+"/UNION SELECT user, password FROM users",1
+/contact?q=' OR '1'='1,1
+/contact?id=8335,0
+/assets/style.css?q=../../../../etc/passwd,1
+/assets/style.css?q=' OR '1'='1,1
+/api/user,0
+/home?category=books,0
+/dashboard?q=admin' --,1
+/| whoami,1
+/login?category=books,0
+/about?page=1,0
+/about?q=admin' --,1
+/login?id=7072,0
+/api/user?id=7746,0
+/about?page=1,0
+/assets/style.css,0
+/images/logo.png?q=; cat /etc/passwd,1
+/assets/style.css?page=1,0
+/assets/style.css?q=<script>alert(1)</script>,1
+/api/user?id=4592,0
+/login,0
+/home?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=search,0
+/$$$$$$$$$$$$,1
+/api/user,0
+/; DROP TABLE students,1
+/api/user?q=; cat /etc/passwd,1
+/home?q=javascript:alert(1),1
+/assets/style.css?q=%00%00%00,1
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=$$$$$$$$$$$$,1
+/home,0
+/images/logo.png?q=search,0
+/login,0
+/admin' --,1
+/about?category=books,0
+/assets/style.css?category=books,0
+/%00%00%00,1
+/javascript:alert(1),1
+/api/user?page=1,0
+/api/user?id=61,0
+/login?q=<script>alert(1)</script>,1
+/login?q=%00%00%00,1
+/login?q=; DROP TABLE students,1
+/contact?session=xyz,0
+/products?q=search,0
+/about?id=5751,0
+/products?category=books,0
+/<script>alert(1)</script>,1
+/api/user?page=1,0
+/javascript:alert(1),1
+/../../../../etc/passwd,1
+/login?id=3937,0
+/about,0
+/contact?category=books,0
+/; DROP TABLE students,1
+/assets/style.css?id=7266,0
+/assets/style.css?session=xyz,0
+/api/user?id=4603,0
+/products?q=javascript:alert(1),1
+/products?session=xyz,0
+/products?q=search,0
+/contact?q=| whoami,1
+/<script>alert(1)</script>,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?q=&& netstat -an,1
+/dashboard?q=| whoami,1
+/images/logo.png?category=books,0
+/contact?q=admin' --,1
+/admin' --,1
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/; cat /etc/passwd,1
+/dashboard?q=%00%00%00,1
+/products?page=1,0
+/| whoami,1
+/products?id=2849,0
+/api/user?session=xyz,0
+/images/logo.png,0
+"/UNION SELECT user, password FROM users",1
+/products,0
+"/UNION SELECT user, password FROM users",1
+/home?page=1,0
+/products?q=admin' --,1
+/; cat /etc/passwd,1
+/login?category=books,0
+/..\..\windows\system32\cmd.exe,1
+/login?q=search,0
+/images/logo.png?page=1,0
+"/login?q=UNION SELECT user, password FROM users",1
+/login?q=; DROP TABLE students,1
+/images/logo.png?q=| whoami,1
+/assets/style.css?session=xyz,0
+/assets/style.css?q=| whoami,1
+/about?q=admin' --,1
+/<img src=x onerror=alert('hacked')>,1
+/api/user?page=1,0
+/about?page=1,0
+/products?page=1,0
+/images/logo.png?q=../../../../etc/passwd,1
+/login?page=1,0
+/images/logo.png?session=xyz,0
+/about?category=books,0
+/login?q=%00%00%00,1
+/products?session=xyz,0
+/images/logo.png?session=xyz,0
+/products?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?q=' OR 1=1 --,1
+/' OR '1'='1,1
+/' OR 1=1 --,1
+/home?category=books,0
+/<img src=x onerror=alert('hacked')>,1
+/login?q=search,0
+/%00%00%00,1
+/home?q=search,0
+/dashboard?id=4933,0
+/about?q=| whoami,1
+/&& netstat -an,1
+/&& netstat -an,1
+/api/user,0
+/about?q=$$$$$$$$$$$$,1
+/about?id=4450,0
+/assets/style.css?q=search,0
+/images/logo.png?q=<img src=x onerror=alert('hacked')>,1
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/products?page=1,0
+/home?category=books,0
+/products?q=' OR '1'='1,1
+/login,0
+/contact?category=books,0
+/' OR 1=1 --,1
+/../../../../etc/passwd,1
+/contact?q=javascript:alert(1),1
+/images/logo.png?page=1,0
+/about,0
+"/UNION SELECT user, password FROM users",1
+/javascript:alert(1),1
+/login?session=xyz,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about?category=books,0
+/products?q=; cat /etc/passwd,1
+/images/logo.png?category=books,0
+/dashboard,0
+/dashboard?id=6858,0
+/about?category=books,0
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/products?category=books,0
+/products?q=$$$$$$$$$$$$,1
+/assets/style.css?session=xyz,0
+/dashboard?session=xyz,0
+/' OR 1=1 --,1
+/home,0
+/<img src=x onerror=alert('hacked')>,1
+/login?category=books,0
+/..\..\windows\system32\cmd.exe,1
+/contact?session=xyz,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/products?id=1142,0
+/dashboard?q=search,0
+/dashboard?q=admin' --,1
+/..\..\windows\system32\cmd.exe,1
+/about?page=1,0
+/products?q=' OR '1'='1,1
+/$$$$$$$$$$$$,1
+/about?session=xyz,0
+/about,0
+/admin' --,1
+/dashboard?q=search,0
+/dashboard?q=; cat /etc/passwd,1
+/$$$$$$$$$$$$,1
+"/login?q=UNION SELECT user, password FROM users",1
+/products?id=5775,0
+/about?q=search,0
+/admin' --,1
+/..\..\windows\system32\cmd.exe,1
+/contact,0
+/; DROP TABLE students,1
+/api/user?session=xyz,0
+/$$$$$$$$$$$$,1
+/images/logo.png?q=| whoami,1
+/home,0
+/&& netstat -an,1
+/images/logo.png?q=%00%00%00,1
+/home?id=512,0
+/assets/style.css?id=8040,0
+/assets/style.css?q=; DROP TABLE students,1
+/login?id=697,0
+/javascript:alert(1),1
+/dashboard?category=books,0
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?category=books,0
+/admin' --,1
+/assets/style.css?id=179,0
+/login?q=; cat /etc/passwd,1
+/images/logo.png,0
+/| whoami,1
+/| whoami,1
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/$$$$$$$$$$$$,1
+/products?session=xyz,0
+/assets/style.css?q=search,0
+/assets/style.css?session=xyz,0
+/&& netstat -an,1
+/dashboard?id=9343,0
+/login?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/home?q=&& netstat -an,1
+/login?session=xyz,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?session=xyz,0
+/api/user?session=xyz,0
+/login?q=admin' --,1
+/api/user?page=1,0
+/contact?session=xyz,0
+/api/user?session=xyz,0
+/login?q=javascript:alert(1),1
+/; cat /etc/passwd,1
+/dashboard?category=books,0
+/products?category=books,0
+/' OR 1=1 --,1
+/login?q=' OR '1'='1,1
+/| whoami,1
+/images/logo.png?q=&& netstat -an,1
+/home?id=1597,0
+/products?session=xyz,0
+/images/logo.png?id=2886,0
+/login?q=search,0
+/api/user?q=' OR 1=1 --,1
+/api/user?page=1,0
+/login?q=../../../../etc/passwd,1
+/assets/style.css?q=search,0
+/; cat /etc/passwd,1
+"/UNION SELECT user, password FROM users",1
+/about?q=search,0
+/dashboard?q=search,0
+/; cat /etc/passwd,1
+/home,0
+/dashboard?q=search,0
+/; DROP TABLE students,1
+/products,0
+/; DROP TABLE students,1
+/about?page=1,0
+/login?q=; DROP TABLE students,1
+/<script>alert(1)</script>,1
+/about?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/..\..\windows\system32\cmd.exe,1
+/about?session=xyz,0
+/contact?q=<script>alert(1)</script>,1
+/products?session=xyz,0
+/contact?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?category=books,0
+/about?id=2792,0
+/javascript:alert(1),1
+/login,0
+/login?q=search,0
+/about?page=1,0
+/dashboard?q=search,0
+/assets/style.css?q=search,0
+/products?id=2666,0
+/dashboard?page=1,0
+/api/user?q=&& netstat -an,1
+/about,0
+/contact?session=xyz,0
+"/contact?q=UNION SELECT user, password FROM users",1
+/login?id=5993,0
+/home,0
+/login?page=1,0
+/contact?category=books,0
+/assets/style.css?id=1998,0
+/api/user?id=319,0
+/contact?q=; cat /etc/passwd,1
+/contact?page=1,0
+/contact?page=1,0
+/dashboard?q=search,0
+/api/user?q=<script>alert(1)</script>,1
+/about?q=search,0
+"/contact?q=UNION SELECT user, password FROM users",1
+"/home?q=UNION SELECT user, password FROM users",1
+/products?session=xyz,0
+/products?category=books,0
+/home?q=javascript:alert(1),1
+/dashboard?session=xyz,0
+/api/user?page=1,0
+/<script>alert(1)</script>,1
+/| whoami,1
+/home?category=books,0
+/about?q=admin' --,1
+/dashboard?id=6129,0
+/' OR 1=1 --,1
+/assets/style.css?session=xyz,0
+/dashboard?q=| whoami,1
+/%00%00%00,1
+/login,0
+/about,0
+/api/user,0
+/dashboard?q=; cat /etc/passwd,1
+/images/logo.png,0
+/images/logo.png?id=5273,0
+/javascript:alert(1),1
+/$$$$$$$$$$$$,1
+/assets/style.css?q=javascript:alert(1),1
+/products?q=admin' --,1
+/<img src=x onerror=alert('hacked')>,1
+/home?q=' OR 1=1 --,1
+/login?q=' OR '1'='1,1
+/assets/style.css?page=1,0
+/../../../../etc/passwd,1
+/login?id=8471,0
+/api/user?q=search,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/products?session=xyz,0
+/assets/style.css?id=7546,0
+/dashboard?q=; DROP TABLE students,1
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/home?id=5392,0
+/about?q=search,0
+/dashboard?q=' OR 1=1 --,1
+/about?q=; cat /etc/passwd,1
+/about?q=search,0
+/assets/style.css?page=1,0
+/home?q=&& netstat -an,1
+/home,0
+/login?page=1,0
+/home?q=../../../../etc/passwd,1
+/about?q=; DROP TABLE students,1
+/' OR '1'='1,1
+/products?session=xyz,0
+/..\..\windows\system32\cmd.exe,1
+/login?q=search,0
+/about?q=&& netstat -an,1
+/assets/style.css?id=7374,0
+/images/logo.png,0
+/%00%00%00,1
+/dashboard?q=%00%00%00,1
+/images/logo.png?q=%00%00%00,1
+/images/logo.png?q=| whoami,1
+/dashboard?q=; cat /etc/passwd,1
+/assets/style.css?q=' OR '1'='1,1
+/login?q=$$$$$$$$$$$$,1
+/home?q=<img src=x onerror=alert('hacked')>,1
+/api/user?session=xyz,0
+/contact?category=books,0
+/images/logo.png?page=1,0
+/../../../../etc/passwd,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css?q=; DROP TABLE students,1
+/login,0
+/dashboard?page=1,0
+/about,0
+/javascript:alert(1),1
+/about?q=search,0
+/home?q=search,0
+/; DROP TABLE students,1
+/; cat /etc/passwd,1
+/about?q=' OR 1=1 --,1
+/<img src=x onerror=alert('hacked')>,1
+/api/user?id=5964,0
+/products?category=books,0
+/home?q=' OR 1=1 --,1
+/dashboard?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/%00%00%00,1
+/home,0
+/$$$$$$$$$$$$,1
+/../../../../etc/passwd,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/products?q=search,0
+/images/logo.png?category=books,0
+/home?page=1,0
+/login?id=8722,0
+/about?category=books,0
+/contact?page=1,0
+/../../../../etc/passwd,1
+/assets/style.css?id=4447,0
+/home?session=xyz,0
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/images/logo.png?id=8592,0
+/products?id=1667,0
+/%00%00%00,1
+/images/logo.png?session=xyz,0
+/login?session=xyz,0
+/images/logo.png?q=../../../../etc/passwd,1
+/api/user,0
+/api/user?category=books,0
+/login?q=search,0
+/dashboard?page=1,0
+/&& netstat -an,1
+/dashboard?session=xyz,0
+/images/logo.png?q=search,0
+/| whoami,1
+/images/logo.png?q=<script>alert(1)</script>,1
+/admin' --,1
+/contact?id=627,0
+/%00%00%00,1
+/login?q=search,0
+/products,0
+/api/user?q=search,0
+/javascript:alert(1),1
+/login?session=xyz,0
+/; DROP TABLE students,1
+/products?page=1,0
+/..\..\windows\system32\cmd.exe,1
+/&& netstat -an,1
+/contact?q=search,0
+/admin' --,1
+/<script>alert(1)</script>,1
+/contact?category=books,0
+/images/logo.png?page=1,0
+/about?q=search,0
+/home?id=651,0
+/images/logo.png?q=search,0
+/images/logo.png,0
+/images/logo.png?q=<img src=x onerror=alert('hacked')>,1
+/<script>alert(1)</script>,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/..\..\windows\system32\cmd.exe,1
+/../../../../etc/passwd,1
+/products,0
+/dashboard?category=books,0
+/| whoami,1
+/assets/style.css?page=1,0
+/home?q=../../../../etc/passwd,1
+/about?q=../../../../etc/passwd,1
+/| whoami,1
+/api/user?q=; DROP TABLE students,1
+/images/logo.png?category=books,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about,0
+/products?id=1337,0
+/contact?page=1,0
+/home?page=1,0
+/images/logo.png?q=search,0
+"/UNION SELECT user, password FROM users",1
+/dashboard?id=4953,0
+/../../../../etc/passwd,1
+/login?category=books,0
+/api/user?id=7020,0
+/assets/style.css?id=4629,0
+/<img src=x onerror=alert('hacked')>,1
+/home?id=5539,0
+/api/user?q=<script>alert(1)</script>,1
+/%00%00%00,1
+/javascript:alert(1),1
+/home?q=search,0
+/about?session=xyz,0
+/dashboard,0
+/dashboard?category=books,0
+/login?id=9085,0
+/<script>alert(1)</script>,1
+/; cat /etc/passwd,1
+/dashboard,0
+/images/logo.png?session=xyz,0
+/dashboard?id=8224,0
+/contact?category=books,0
+/dashboard,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/| whoami,1
+/' OR '1'='1,1
+/' OR '1'='1,1
+/..\..\windows\system32\cmd.exe,1
+/..\..\windows\system32\cmd.exe,1
+/home?q=search,0
+/api/user?category=books,0
+/dashboard?q=$$$$$$$$$$$$,1
+/images/logo.png?session=xyz,0
+/assets/style.css?q=' OR 1=1 --,1
+/dashboard,0
+/' OR '1'='1,1
+/about?q=' OR '1'='1,1
+/about?q=admin' --,1
+/products?category=books,0
+/; cat /etc/passwd,1
+/%00%00%00,1
+/assets/style.css?category=books,0
+/products?id=9187,0
+/javascript:alert(1),1
+/home?id=1735,0
+/about?session=xyz,0
+/assets/style.css?q=; cat /etc/passwd,1
+/assets/style.css?category=books,0
+/about?q=; cat /etc/passwd,1
+/login?id=6980,0
+/login?q=; DROP TABLE students,1
+/about?id=7064,0
+"/UNION SELECT user, password FROM users",1
+/images/logo.png?category=books,0
+/..\..\windows\system32\cmd.exe,1
+/api/user?category=books,0
+/<script>alert(1)</script>,1
+/home?session=xyz,0
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/../../../../etc/passwd,1
+/products?session=xyz,0
+/contact?q=<script>alert(1)</script>,1
+/assets/style.css?category=books,0
+/products?id=6410,0
+/home?page=1,0
+/../../../../etc/passwd,1
+/dashboard,0
+/products?q=search,0
+"/UNION SELECT user, password FROM users",1
+/' OR '1'='1,1
+/contact?id=402,0
+/; cat /etc/passwd,1
+/products?q=search,0
+/login?page=1,0
+/images/logo.png?page=1,0
+/contact,0
+/$$$$$$$$$$$$,1
+/home?session=xyz,0
+/images/logo.png?q=; cat /etc/passwd,1
+/home?q=$$$$$$$$$$$$,1
+/dashboard?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/dashboard?q=search,0
+/api/user?q=search,0
+/' OR '1'='1,1
+/home?category=books,0
+/assets/style.css?page=1,0
+/home?session=xyz,0
+/assets/style.css?id=5446,0
+/images/logo.png?page=1,0
+/assets/style.css?session=xyz,0
+/dashboard?q=; DROP TABLE students,1
+/api/user?category=books,0
+"/UNION SELECT user, password FROM users",1
+/; DROP TABLE students,1
+/admin' --,1
+/about,0
+/login?page=1,0
+/contact?q=; DROP TABLE students,1
+/login?q=' OR 1=1 --,1
+/..\..\windows\system32\cmd.exe,1
+/products?q=admin' --,1
+/dashboard?page=1,0
+/api/user,0
+/login?category=books,0
+/login?q=&& netstat -an,1
+/api/user?session=xyz,0
+/assets/style.css,0
+/&& netstat -an,1
+/dashboard?session=xyz,0
+/../../../../etc/passwd,1
+/dashboard?id=338,0
+/api/user?q=search,0
+/api/user?q=admin' --,1
+/contact?id=8457,0
+/about?session=xyz,0
+/login?category=books,0
+/api/user?q=../../../../etc/passwd,1
+/login?session=xyz,0
+/api/user?q=%00%00%00,1
+/dashboard?category=books,0
+/javascript:alert(1),1
+/api/user,0
+/' OR '1'='1,1
+/assets/style.css?session=xyz,0
+/api/user?q=%00%00%00,1
+/home?category=books,0
+/about?id=8086,0
+/&& netstat -an,1
+/login?q=..\..\windows\system32\cmd.exe,1
+/home,0
+/%00%00%00,1
+/dashboard?session=xyz,0
+/login?id=5141,0
+/contact?q=| whoami,1
+/images/logo.png?page=1,0
+/api/user?session=xyz,0
+/dashboard?category=books,0
+/&& netstat -an,1
+/dashboard?q=search,0
+/images/logo.png?page=1,0
+/; DROP TABLE students,1
+/assets/style.css?q=<script>alert(1)</script>,1
+/login?category=books,0
+/home?q=' OR 1=1 --,1
+/products?q=search,0
+/%00%00%00,1
+/products?q=| whoami,1
+/dashboard?session=xyz,0
+/login?q=search,0
+/$$$$$$$$$$$$,1
+/; DROP TABLE students,1
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/images/logo.png?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/../../../../etc/passwd,1
+/api/user?q=; cat /etc/passwd,1
+/contact?id=3465,0
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/assets/style.css?page=1,0
+/dashboard?page=1,0
+/' OR '1'='1,1
+/login?q=search,0
+/about?q=search,0
+/products?page=1,0
+/about?q=search,0
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css?q=' OR '1'='1,1
+/products?page=1,0
+/login?id=7279,0
+/login?category=books,0
+/about?category=books,0
+/about,0
+/images/logo.png?q=search,0
+/contact?id=1452,0
+/assets/style.css?category=books,0
+/$$$$$$$$$$$$,1
+/home?q=; DROP TABLE students,1
+/assets/style.css?q=; DROP TABLE students,1
+/products,0
+/javascript:alert(1),1
+/about,0
+/api/user?q=&& netstat -an,1
+/dashboard?q=search,0
+/about?page=1,0
+/| whoami,1
+/images/logo.png?q=admin' --,1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/login,0
+/about?session=xyz,0
+/home?q=; cat /etc/passwd,1
+/login,0
+/dashboard?q=search,0
+/contact?id=7108,0
+/admin' --,1
+/../../../../etc/passwd,1
+/home?id=5055,0
+/login,0
+/products?session=xyz,0
+/products,0
+/images/logo.png?q=<img src=x onerror=alert('hacked')>,1
+/login?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?page=1,0
+/contact?page=1,0
+/..\..\windows\system32\cmd.exe,1
+/contact?q=javascript:alert(1),1
+/home?id=4520,0
+/; cat /etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+"/UNION SELECT user, password FROM users",1
+/login?q=search,0
+/assets/style.css?session=xyz,0
+/assets/style.css,0
+/dashboard,0
+/api/user?q=search,0
+/javascript:alert(1),1
+/api/user?page=1,0
+/&& netstat -an,1
+/' OR '1'='1,1
+/login?q=| whoami,1
+/dashboard?category=books,0
+/assets/style.css?q=; DROP TABLE students,1
+/javascript:alert(1),1
+/images/logo.png,0
+/api/user?q=admin' --,1
+/$$$$$$$$$$$$,1
+/products?id=6505,0
+/<img src=x onerror=alert('hacked')>,1
+/| whoami,1
+/api/user?id=8077,0
+/dashboard,0
+/about?q=../../../../etc/passwd,1
+/assets/style.css?q=javascript:alert(1),1
+/dashboard?q=&& netstat -an,1
+/images/logo.png?q=search,0
+/dashboard,0
+/images/logo.png,0
+/&& netstat -an,1
+/api/user?id=2545,0
+/api/user?q=javascript:alert(1),1
+/products?session=xyz,0
+/products?q=' OR '1'='1,1
+/' OR '1'='1,1
+/..\..\windows\system32\cmd.exe,1
+/contact?page=1,0
+/products,0
+/products?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png?category=books,0
+/home?page=1,0
+/images/logo.png?q=; cat /etc/passwd,1
+/contact?q=' OR 1=1 --,1
+/contact?id=600,0
+/about?q=admin' --,1
+/products?q=; DROP TABLE students,1
+/dashboard,0
+/..\..\windows\system32\cmd.exe,1
+/images/logo.png?q=search,0
+/images/logo.png?category=books,0
+/$$$$$$$$$$$$,1
+/login,0
+/products?q=' OR '1'='1,1
+/about?q=&& netstat -an,1
+/../../../../etc/passwd,1
+/images/logo.png?q=search,0
+/assets/style.css?session=xyz,0
+/api/user?q=| whoami,1
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css?q=| whoami,1
+/dashboard,0
+/%00%00%00,1
+/; cat /etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+/products?page=1,0
+/login?q=<img src=x onerror=alert('hacked')>,1
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?q=search,0
+/contact?q=' OR 1=1 --,1
+/..\..\windows\system32\cmd.exe,1
+/about?q=%00%00%00,1
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/dashboard,0
+/| whoami,1
+/dashboard?q=../../../../etc/passwd,1
+/../../../../etc/passwd,1
+/../../../../etc/passwd,1
+/about,0
+/home?q=| whoami,1
+/..\..\windows\system32\cmd.exe,1
+/api/user?category=books,0
+/assets/style.css?page=1,0
+"/UNION SELECT user, password FROM users",1
+/login,0
+/../../../../etc/passwd,1
+/login?category=books,0
+/dashboard?id=2061,0
+/assets/style.css?session=xyz,0
+/contact?page=1,0
+/images/logo.png?q=' OR 1=1 --,1
+/login,0
+/$$$$$$$$$$$$,1
+/assets/style.css?page=1,0
+/home?q=; DROP TABLE students,1
+/about?category=books,0
+/images/logo.png?category=books,0
+/../../../../etc/passwd,1
+/about?session=xyz,0
+/login?page=1,0
+/contact?session=xyz,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?category=books,0
+/' OR 1=1 --,1
+/about?category=books,0
+/login?q=javascript:alert(1),1
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/products?q=search,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/..\..\windows\system32\cmd.exe,1
+/about,0
+/dashboard?category=books,0
+/admin' --,1
+/contact?session=xyz,0
+/login,0
+/images/logo.png?q=search,0
+/..\..\windows\system32\cmd.exe,1
+/about,0
+/about?page=1,0
+/api/user?id=5872,0
+/$$$$$$$$$$$$,1
+/javascript:alert(1),1
+/assets/style.css?page=1,0
+/products?session=xyz,0
+/contact?q=javascript:alert(1),1
+/assets/style.css?q=; cat /etc/passwd,1
+"/UNION SELECT user, password FROM users",1
+/javascript:alert(1),1
+/..\..\windows\system32\cmd.exe,1
+/dashboard?session=xyz,0
+/api/user?id=8015,0
+/assets/style.css?category=books,0
+/api/user,0
+/home?id=4,0
+/products?q=search,0
+/assets/style.css?id=3628,0
+/dashboard?q=%00%00%00,1
+/assets/style.css?page=1,0
+/login?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/javascript:alert(1),1
+/; DROP TABLE students,1
+/dashboard?page=1,0
+/home?category=books,0
+"/products?q=UNION SELECT user, password FROM users",1
+/api/user?category=books,0
+/admin' --,1
+/admin' --,1
+/api/user?page=1,0
+/home?page=1,0
+/images/logo.png?q=; DROP TABLE students,1
+/images/logo.png,0
+/assets/style.css?q=search,0
+/products?session=xyz,0
+/images/logo.png?q=' OR '1'='1,1
+/home?session=xyz,0
+/about?id=3895,0
+/login?session=xyz,0
+/products?id=6680,0
+/api/user?id=6447,0
+/assets/style.css?page=1,0
+/products?session=xyz,0
+/about?q=| whoami,1
+/; cat /etc/passwd,1
+/api/user?q=admin' --,1
+/<script>alert(1)</script>,1
+/; cat /etc/passwd,1
+/api/user?session=xyz,0
+/dashboard?session=xyz,0
+/| whoami,1
+/products?session=xyz,0
+/; cat /etc/passwd,1
+/api/user?q=; DROP TABLE students,1
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/' OR '1'='1,1
+/home?page=1,0
+/dashboard?page=1,0
+/assets/style.css?q=| whoami,1
+/; cat /etc/passwd,1
+/home?page=1,0
+/home?id=4675,0
+/%00%00%00,1
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/home?q=$$$$$$$$$$$$,1
+/home?page=1,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?q=' OR '1'='1,1
+/login,0
+/api/user?q=' OR '1'='1,1
+/products,0
+/products,0
+/about,0
+/about?session=xyz,0
+/$$$$$$$$$$$$,1
+/assets/style.css?id=5770,0
+/..\..\windows\system32\cmd.exe,1
+/; DROP TABLE students,1
+"/home?q=UNION SELECT user, password FROM users",1
+/login?q=$$$$$$$$$$$$,1
+/about?id=6863,0
+/api/user,0
+/home?q=%00%00%00,1
+/$$$$$$$$$$$$,1
+/about?q=; cat /etc/passwd,1
+/javascript:alert(1),1
+/login?session=xyz,0
+/$$$$$$$$$$$$,1
+/home,0
+/contact?category=books,0
+/' OR '1'='1,1
+/<img src=x onerror=alert('hacked')>,1
+/contact?q=&& netstat -an,1
+/home?category=books,0
+/home?q=<script>alert(1)</script>,1
+/contact?id=9938,0
+/' OR '1'='1,1
+/<img src=x onerror=alert('hacked')>,1
+/api/user?category=books,0
+/images/logo.png?id=8071,0
+/contact?id=4943,0
+/products?q=search,0
+/api/user?id=6406,0
+/login?q=$$$$$$$$$$$$,1
+/products?q=; DROP TABLE students,1
+/dashboard?q=' OR 1=1 --,1
+/contact?page=1,0
+/&& netstat -an,1
+/&& netstat -an,1
+/login?id=8315,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about?q=&& netstat -an,1
+/api/user?category=books,0
+"/UNION SELECT user, password FROM users",1
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?id=1594,0
+/products?page=1,0
+/images/logo.png?q=' OR '1'='1,1
+/api/user?q=../../../../etc/passwd,1
+/' OR 1=1 --,1
+/javascript:alert(1),1
+/; cat /etc/passwd,1
+/; DROP TABLE students,1
+/products?q=admin' --,1
+/assets/style.css?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/<script>alert(1)</script>,1
+/images/logo.png?session=xyz,0
+/products,0
+/about?session=xyz,0
+/login?category=books,0
+/login?id=9674,0
+/login?q=' OR '1'='1,1
+/home?category=books,0
+/assets/style.css,0
+/' OR 1=1 --,1
+/login?q=admin' --,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?category=books,0
+/contact?q=admin' --,1
+/contact,0
+/images/logo.png?q=; cat /etc/passwd,1
+/about?id=2859,0
+/dashboard?id=8655,0
+/dashboard?page=1,0
+/login?q=| whoami,1
+/login?q=<img src=x onerror=alert('hacked')>,1
+/assets/style.css?id=2874,0
+/products?q=; DROP TABLE students,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/home,0
+/images/logo.png?q=search,0
+/products?q=<img src=x onerror=alert('hacked')>,1
+/login?id=6351,0
+/assets/style.css,0
+/dashboard?page=1,0
+/assets/style.css,0
+/<img src=x onerror=alert('hacked')>,1
+/api/user?page=1,0
+/api/user?id=5889,0
+/dashboard?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/about?session=xyz,0
+/<script>alert(1)</script>,1
+/products?session=xyz,0
+/dashboard?session=xyz,0
+/login?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+"/contact?q=UNION SELECT user, password FROM users",1
+/login?id=1116,0
+/../../../../etc/passwd,1
+/images/logo.png?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/$$$$$$$$$$$$,1
+/images/logo.png?page=1,0
+/home,0
+/images/logo.png?q=| whoami,1
+/assets/style.css?q=' OR 1=1 --,1
+/contact?q=; DROP TABLE students,1
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/contact?page=1,0
+/contact?category=books,0
+/dashboard?q=search,0
+/' OR '1'='1,1
+/products,0
+/login?session=xyz,0
+/about?page=1,0
+/login?page=1,0
+/<script>alert(1)</script>,1
+/../../../../etc/passwd,1
+/../../../../etc/passwd,1
+/contact?session=xyz,0
+/..\..\windows\system32\cmd.exe,1
+/login?q=search,0
+/api/user,0
+/products?id=4117,0
+/about?q=<img src=x onerror=alert('hacked')>,1
+/..\..\windows\system32\cmd.exe,1
+/%00%00%00,1
+/' OR '1'='1,1
+/images/logo.png,0
+/api/user?q=| whoami,1
+/api/user?q=search,0
+/assets/style.css,0
+/javascript:alert(1),1
+/products,0
+/dashboard?category=books,0
+/' OR 1=1 --,1
+/images/logo.png,0
+/dashboard,0
+/home,0
+/about?session=xyz,0
+/contact?category=books,0
+/assets/style.css?id=3779,0
+/images/logo.png?q=%00%00%00,1
+/images/logo.png?page=1,0
+/<img src=x onerror=alert('hacked')>,1
+/products?session=xyz,0
+/api/user?category=books,0
+/../../../../etc/passwd,1
+/home?id=8107,0
+/dashboard?q=javascript:alert(1),1
+/about?q=<img src=x onerror=alert('hacked')>,1
+/dashboard?q=search,0
+/api/user?category=books,0
+/api/user?id=1096,0
+/login?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/products?q=search,0
+/; DROP TABLE students,1
+/images/logo.png,0
+/&& netstat -an,1
+/dashboard?q=search,0
+/about?q=$$$$$$$$$$$$,1
+/login?q=$$$$$$$$$$$$,1
+/contact?id=3924,0
+/login?id=3633,0
+/dashboard?id=332,0
+/api/user?category=books,0
+/../../../../etc/passwd,1
+/images/logo.png?q=| whoami,1
+/assets/style.css?page=1,0
+/contact,0
+/images/logo.png?session=xyz,0
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/products?page=1,0
+/; cat /etc/passwd,1
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?page=1,0
+/images/logo.png?q=' OR '1'='1,1
+/&& netstat -an,1
+/about?id=7599,0
+/home?q=search,0
+/../../../../etc/passwd,1
+/about?q=| whoami,1
+/products,0
+/login?q=search,0
+/api/user,0
+/home?q=; cat /etc/passwd,1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/dashboard?q=search,0
+/home?q=search,0
+/dashboard?session=xyz,0
+/home?q=search,0
+/home?category=books,0
+/contact?q=search,0
+/dashboard?page=1,0
+/$$$$$$$$$$$$,1
+/home?q=' OR 1=1 --,1
+/assets/style.css?q=search,0
+/$$$$$$$$$$$$,1
+/api/user?q=search,0
+/javascript:alert(1),1
+/dashboard?category=books,0
+/api/user,0
+/products?q=admin' --,1
+/home?q=javascript:alert(1),1
+/products,0
+/dashboard?category=books,0
+/../../../../etc/passwd,1
+/images/logo.png?q=<script>alert(1)</script>,1
+/dashboard?q=&& netstat -an,1
+/products?q=&& netstat -an,1
+/dashboard,0
+/dashboard?q=javascript:alert(1),1
+/images/logo.png?id=8560,0
+/images/logo.png?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css?q=search,0
+/contact?id=1583,0
+/' OR '1'='1,1
+/admin' --,1
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/&& netstat -an,1
+/<img src=x onerror=alert('hacked')>,1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/<img src=x onerror=alert('hacked')>,1
+/login?q=; cat /etc/passwd,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=search,0
+/about?q=search,0
+/assets/style.css,0
+"/UNION SELECT user, password FROM users",1
+/images/logo.png?q=%00%00%00,1
+/assets/style.css?page=1,0
+/assets/style.css,0
+/contact?session=xyz,0
+/images/logo.png?q=search,0
+/api/user?page=1,0
+/about?session=xyz,0
+/products?q=| whoami,1
+/about?q=| whoami,1
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/api/user?q=../../../../etc/passwd,1
+/contact?category=books,0
+/products?q=search,0
+/../../../../etc/passwd,1
+/login,0
+/images/logo.png?category=books,0
+/api/user?session=xyz,0
+/' OR 1=1 --,1
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?id=3389,0
+/images/logo.png?q=javascript:alert(1),1
+/dashboard?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=| whoami,1
+/contact,0
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?page=1,0
+/home,0
+/api/user?category=books,0
+/%00%00%00,1
+/contact?q=' OR '1'='1,1
+/../../../../etc/passwd,1
+/' OR '1'='1,1
+/home?page=1,0
+/images/logo.png?session=xyz,0
+/javascript:alert(1),1
+/dashboard?session=xyz,0
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/api/user,0
+"/UNION SELECT user, password FROM users",1
+/; cat /etc/passwd,1
+/contact?id=7536,0
+/' OR 1=1 --,1
+/<img src=x onerror=alert('hacked')>,1
+/contact,0
+/contact?q=; DROP TABLE students,1
+/assets/style.css?id=4630,0
+/' OR 1=1 --,1
+/contact?q=search,0
+/login?id=7518,0
+/login,0
+/login?category=books,0
+/products?q=; DROP TABLE students,1
+/home?id=1788,0
+/api/user?q=search,0
+/assets/style.css?q=' OR 1=1 --,1
+/products?id=1462,0
+/<script>alert(1)</script>,1
+/| whoami,1
+/about?category=books,0
+/dashboard?q=$$$$$$$$$$$$,1
+/&& netstat -an,1
+/dashboard,0
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/about?q=%00%00%00,1
+/assets/style.css?q=; cat /etc/passwd,1
+/about?q=search,0
+/dashboard?session=xyz,0
+/$$$$$$$$$$$$,1
+/login?q=../../../../etc/passwd,1
+/assets/style.css?id=3428,0
+/home?q=$$$$$$$$$$$$,1
+/images/logo.png?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?session=xyz,0
+/about?category=books,0
+/images/logo.png?q=search,0
+/images/logo.png?q=search,0
+/api/user?page=1,0
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/; DROP TABLE students,1
+/; cat /etc/passwd,1
+/home?id=383,0
+/login,0
+/api/user?session=xyz,0
+/about?q=&& netstat -an,1
+/images/logo.png?q=$$$$$$$$$$$$,1
+/dashboard?category=books,0
+/assets/style.css?q=search,0
+/| whoami,1
+/../../../../etc/passwd,1
+/assets/style.css,0
+/dashboard?q=search,0
+/images/logo.png?q=; cat /etc/passwd,1
+/assets/style.css?session=xyz,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/home?page=1,0
+/images/logo.png?page=1,0
+/api/user?category=books,0
+/images/logo.png?page=1,0
+/login?session=xyz,0
+/$$$$$$$$$$$$,1
+/contact?category=books,0
+/api/user?id=8132,0
+/admin' --,1
+/assets/style.css?id=9712,0
+/api/user?session=xyz,0
+/home?id=7944,0
+/about?page=1,0
+/assets/style.css?page=1,0
+/javascript:alert(1),1
+/products?session=xyz,0
+/about?id=6574,0
+/&& netstat -an,1
+/api/user,0
+/about,0
+/about?session=xyz,0
+/login,0
+/login,0
+/images/logo.png?category=books,0
+/assets/style.css?page=1,0
+/dashboard?session=xyz,0
+/contact?q=search,0
+/api/user?category=books,0
+/dashboard?session=xyz,0
+/assets/style.css?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/about?session=xyz,0
+/products?category=books,0
+/products?page=1,0
+/about?category=books,0
+/assets/style.css,0
+/images/logo.png?page=1,0
+/$$$$$$$$$$$$,1
+/login?q=<img src=x onerror=alert('hacked')>,1
+/api/user?q=' OR 1=1 --,1
+/products,0
+/home?session=xyz,0
+/%00%00%00,1
+/; DROP TABLE students,1
+/products?category=books,0
+/images/logo.png?page=1,0
+/dashboard,0
+/dashboard?session=xyz,0
+/&& netstat -an,1
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/login,0
+/javascript:alert(1),1
+/..\..\windows\system32\cmd.exe,1
+/dashboard?q=javascript:alert(1),1
+/api/user?q=; cat /etc/passwd,1
+/about?session=xyz,0
+/assets/style.css?q=&& netstat -an,1
+/javascript:alert(1),1
+/<img src=x onerror=alert('hacked')>,1
+/contact?q=..\..\windows\system32\cmd.exe,1
+/$$$$$$$$$$$$,1
+/about?q=<img src=x onerror=alert('hacked')>,1
+/dashboard?session=xyz,0
+/api/user?q=search,0
+"/login?q=UNION SELECT user, password FROM users",1
+/admin' --,1
+/about?q=search,0
+/api/user?category=books,0
+/contact?session=xyz,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?session=xyz,0
+/&& netstat -an,1
+/assets/style.css?q=; DROP TABLE students,1
+/products?id=484,0
+/contact?q=search,0
+/dashboard?q=%00%00%00,1
+/images/logo.png?q=search,0
+/home?q=; DROP TABLE students,1
+/images/logo.png?category=books,0
+"/products?q=UNION SELECT user, password FROM users",1
+/%00%00%00,1
+/contact?q=..\..\windows\system32\cmd.exe,1
+/products?category=books,0
+/dashboard?id=4361,0
+/assets/style.css?category=books,0
+/dashboard?q=admin' --,1
+/home?session=xyz,0
+/javascript:alert(1),1
+/products?session=xyz,0
+/about?q=| whoami,1
+/images/logo.png?q=<script>alert(1)</script>,1
+/dashboard?category=books,0
+/api/user?q=; cat /etc/passwd,1
+/assets/style.css,0
+/images/logo.png?session=xyz,0
+/' OR '1'='1,1
+/api/user?session=xyz,0
+/home?session=xyz,0
+/&& netstat -an,1
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/about?session=xyz,0
+/login?q=' OR '1'='1,1
+/login,0
+/products?page=1,0
+/api/user?id=1837,0
+/| whoami,1
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/home?id=6062,0
+/$$$$$$$$$$$$,1
+/contact?category=books,0
+/admin' --,1
+/| whoami,1
+/assets/style.css?page=1,0
+/login,0
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/api/user?category=books,0
+/| whoami,1
+/api/user?session=xyz,0
+/<script>alert(1)</script>,1
+/products?page=1,0
+/images/logo.png?page=1,0
+/products?session=xyz,0
+/$$$$$$$$$$$$,1
+/dashboard?q=<script>alert(1)</script>,1
+/home,0
+/contact?id=5771,0
+/login?q=search,0
+/<img src=x onerror=alert('hacked')>,1
+/api/user?category=books,0
+/products?id=7094,0
+/$$$$$$$$$$$$,1
+/images/logo.png?q=%00%00%00,1
+/about?session=xyz,0
+/javascript:alert(1),1
+/home?q=| whoami,1
+/api/user?q=| whoami,1
+/about?id=6232,0
+/admin' --,1
+/images/logo.png?id=3665,0
+/login?page=1,0
+/assets/style.css?q=admin' --,1
+/home?q=&& netstat -an,1
+/%00%00%00,1
+/$$$$$$$$$$$$,1
+/assets/style.css?q=%00%00%00,1
+/' OR '1'='1,1
+/assets/style.css?id=2136,0
+/' OR '1'='1,1
+/login?q=; cat /etc/passwd,1
+/api/user,0
+/login?q=| whoami,1
+/api/user?session=xyz,0
+/api/user?category=books,0
+/products?q=<img src=x onerror=alert('hacked')>,1
+/assets/style.css?q=<script>alert(1)</script>,1
+/javascript:alert(1),1
+/home?q=' OR 1=1 --,1
+/api/user?page=1,0
+/dashboard?page=1,0
+/; DROP TABLE students,1
+/home,0
+/' OR 1=1 --,1
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css,0
+/home?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/api/user?q=<script>alert(1)</script>,1
+/products?page=1,0
+/login?category=books,0
+/assets/style.css?q=search,0
+/contact?category=books,0
+/../../../../etc/passwd,1
+/login?session=xyz,0
+/products?id=3708,0
+/; cat /etc/passwd,1
+/login?q=javascript:alert(1),1
+/api/user?category=books,0
+/api/user?page=1,0
+/images/logo.png?q=; DROP TABLE students,1
+/home?q=<script>alert(1)</script>,1
+/' OR '1'='1,1
+/about?page=1,0
+/dashboard?q=; cat /etc/passwd,1
+/login?session=xyz,0
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard,0
+/<img src=x onerror=alert('hacked')>,1
+/images/logo.png?id=1381,0
+/dashboard?q=search,0
+/login?q=' OR 1=1 --,1
+/about?q=search,0
+/dashboard?q=../../../../etc/passwd,1
+/login?id=2797,0
+/assets/style.css?q=search,0
+/products?q=../../../../etc/passwd,1
+/contact?page=1,0
+/&& netstat -an,1
+/products?id=849,0
+/assets/style.css,0
+/login?q=<img src=x onerror=alert('hacked')>,1
+/dashboard,0
+/dashboard?q=' OR 1=1 --,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?q=admin' --,1
+/images/logo.png?category=books,0
+/assets/style.css?q=&& netstat -an,1
+/login?q=search,0
+/home?category=books,0
+/home?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+"/UNION SELECT user, password FROM users",1
+/contact?category=books,0
+/; cat /etc/passwd,1
+"/contact?q=UNION SELECT user, password FROM users",1
+/login?session=xyz,0
+/api/user?q=<img src=x onerror=alert('hacked')>,1
+/products?id=7537,0
+/products?page=1,0
+/' OR '1'='1,1
+/login?category=books,0
+/home?id=436,0
+/images/logo.png,0
+/dashboard?q=' OR 1=1 --,1
+/login?q=; cat /etc/passwd,1
+/contact,0
+/products?q=; DROP TABLE students,1
+/products?category=books,0
+/assets/style.css?page=1,0
+/; cat /etc/passwd,1
+/%00%00%00,1
+/' OR 1=1 --,1
+/assets/style.css?q=$$$$$$$$$$$$,1
+/contact?id=2417,0
+/images/logo.png?category=books,0
+/dashboard?q=%00%00%00,1
+/admin' --,1
+/products?page=1,0
+/about?id=2126,0
+/assets/style.css?page=1,0
+/assets/style.css?id=5846,0
+/; DROP TABLE students,1
+/images/logo.png?page=1,0
+/contact,0
+/home?q=; DROP TABLE students,1
+/products?q=| whoami,1
+/login?id=459,0
+/contact?q=search,0
+/images/logo.png?q=<script>alert(1)</script>,1
+/about?q=; DROP TABLE students,1
+/assets/style.css?session=xyz,0
+/api/user,0
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?q=<script>alert(1)</script>,1
+/../../../../etc/passwd,1
+/images/logo.png?category=books,0
+/login?q=search,0
+/dashboard?q=javascript:alert(1),1
+/../../../../etc/passwd,1
+/' OR '1'='1,1
+/contact?q=' OR 1=1 --,1
+/images/logo.png?id=271,0
+/home?page=1,0
+/$$$$$$$$$$$$,1
+/dashboard?category=books,0
+"/api/user?q=UNION SELECT user, password FROM users",1
+/home?q=search,0
+/login?q=search,0
+/assets/style.css?page=1,0
+/about?q=search,0
+/images/logo.png?q=&& netstat -an,1
+/javascript:alert(1),1
+/home?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?q=..\..\windows\system32\cmd.exe,1
+/products,0
+/login?q=search,0
+/dashboard?q=; cat /etc/passwd,1
+/login,0
+/home?id=703,0
+/home?q=search,0
+/images/logo.png?id=6592,0
+/products?page=1,0
+/login?q=search,0
+/%00%00%00,1
+/dashboard?page=1,0
+/home?page=1,0
+/products?q=; DROP TABLE students,1
+/home?q=; DROP TABLE students,1
+/home?category=books,0
+/images/logo.png?q=search,0
+/contact?session=xyz,0
+/../../../../etc/passwd,1
+/<script>alert(1)</script>,1
+/products?category=books,0
+/about?q=' OR '1'='1,1
+/products?id=3553,0
+/javascript:alert(1),1
+/<script>alert(1)</script>,1
+/| whoami,1
+/assets/style.css?session=xyz,0
+/products,0
+/login?q=| whoami,1
+/' OR 1=1 --,1
+/about,0
+/about?id=9872,0
+/contact?session=xyz,0
+/images/logo.png?category=books,0
+/products?category=books,0
+/home,0
+/assets/style.css,0
+/api/user?q=&& netstat -an,1
+/about?category=books,0
+/images/logo.png?q=&& netstat -an,1
+/products?page=1,0
+/assets/style.css?q=search,0
+/%00%00%00,1
+/images/logo.png?q=search,0
+/; DROP TABLE students,1
+/contact,0
+/contact?page=1,0
+/assets/style.css?q=search,0
+/contact?q=search,0
+/assets/style.css,0
+/..\..\windows\system32\cmd.exe,1
+/login,0
+/%00%00%00,1
+/; cat /etc/passwd,1
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/' OR 1=1 --,1
+/contact?category=books,0
+/%00%00%00,1
+/login?q=admin' --,1
+/about?id=4860,0
+/products?q=search,0
+/dashboard?q=; DROP TABLE students,1
+/..\..\windows\system32\cmd.exe,1
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/login?q=admin' --,1
+/api/user?q=&& netstat -an,1
+/; DROP TABLE students,1
+/$$$$$$$$$$$$,1
+/api/user?q=; cat /etc/passwd,1
+/products?category=books,0
+/%00%00%00,1
+/' OR 1=1 --,1
+/assets/style.css?q=; DROP TABLE students,1
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?id=4753,0
+/assets/style.css?session=xyz,0
+/%00%00%00,1
+/products?category=books,0
+/contact?session=xyz,0
+/contact?q=admin' --,1
+"/UNION SELECT user, password FROM users",1
+/contact?category=books,0
+/products?page=1,0
+"/UNION SELECT user, password FROM users",1
+/dashboard,0
+/&& netstat -an,1
+/<script>alert(1)</script>,1
+/assets/style.css?id=4690,0
+/images/logo.png?q=&& netstat -an,1
+/login,0
+/&& netstat -an,1
+/&& netstat -an,1
+/products?q=<script>alert(1)</script>,1
+/home?category=books,0
+/; cat /etc/passwd,1
+/about?q=%00%00%00,1
+/| whoami,1
+/login?q=<script>alert(1)</script>,1
+/..\..\windows\system32\cmd.exe,1
+/home?category=books,0
+/api/user,0
+/home?q=search,0
+/&& netstat -an,1
+/api/user?q=search,0
+/&& netstat -an,1
+/about?q=search,0
+/products?q=admin' --,1
+/contact?id=9021,0
+/contact?q=search,0
+/login?category=books,0
+/about?category=books,0
+/images/logo.png?id=9721,0
+/about?page=1,0
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/about,0
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/products?q=admin' --,1
+/assets/style.css,0
+/<img src=x onerror=alert('hacked')>,1
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/api/user?q=search,0
+/images/logo.png?q=' OR '1'='1,1
+/products?category=books,0
+/admin' --,1
+/; cat /etc/passwd,1
+/; cat /etc/passwd,1
+/; cat /etc/passwd,1
+"/UNION SELECT user, password FROM users",1
+/contact?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/admin' --,1
+/$$$$$$$$$$$$,1
+/products?session=xyz,0
+/images/logo.png?q=search,0
+/products?id=6519,0
+/products?session=xyz,0
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/contact?q=; DROP TABLE students,1
+/products?session=xyz,0
+/; DROP TABLE students,1
+/about?id=6033,0
+/assets/style.css?category=books,0
+/<script>alert(1)</script>,1
+/admin' --,1
+/api/user,0
+/../../../../etc/passwd,1
+/about,0
+/home?q=admin' --,1
+/assets/style.css?page=1,0
+/about?q=search,0
+/<script>alert(1)</script>,1
+/assets/style.css?q=search,0
+/dashboard?id=5397,0
+/products?q=admin' --,1
+/about?page=1,0
+/api/user?q=| whoami,1
+/login?page=1,0
+/assets/style.css?q=' OR 1=1 --,1
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/assets/style.css?id=6220,0
+/contact?q=<script>alert(1)</script>,1
+/api/user?page=1,0
+/login?q=' OR 1=1 --,1
+/home?category=books,0
+/dashboard?session=xyz,0
+/login,0
+/admin' --,1
+/api/user?id=7501,0
+/about?session=xyz,0
+/| whoami,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+"/UNION SELECT user, password FROM users",1
+/; cat /etc/passwd,1
+/api/user?page=1,0
+/about?category=books,0
+/' OR 1=1 --,1
+/about,0
+/home?q=%00%00%00,1
+/dashboard?q=search,0
+/dashboard?id=5714,0
+/assets/style.css?q=search,0
+/; cat /etc/passwd,1
+/dashboard?category=books,0
+/contact?category=books,0
+/contact?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css?q=&& netstat -an,1
+/about?page=1,0
+/assets/style.css?q=search,0
+/; cat /etc/passwd,1
+/dashboard?category=books,0
+/assets/style.css,0
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/products?q=%00%00%00,1
+/api/user?category=books,0
+/login?session=xyz,0
+/api/user,0
+/home?q=%00%00%00,1
+/| whoami,1
+/assets/style.css?page=1,0
+/login?q=search,0
+/login?q=../../../../etc/passwd,1
+"/UNION SELECT user, password FROM users",1
+/login?session=xyz,0
+/assets/style.css?id=4442,0
+/about?q=../../../../etc/passwd,1
+/login?q=admin' --,1
+/login?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?q=..\..\windows\system32\cmd.exe,1
+/api/user?q=search,0
+/products?session=xyz,0
+/dashboard,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/&& netstat -an,1
+/dashboard,0
+/..\..\windows\system32\cmd.exe,1
+/admin' --,1
+/home?q=; DROP TABLE students,1
+/; cat /etc/passwd,1
+/api/user?page=1,0
+/contact?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?category=books,0
+/<img src=x onerror=alert('hacked')>,1
+/home?q=$$$$$$$$$$$$,1
+/dashboard?page=1,0
+/about?q=; cat /etc/passwd,1
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/home?id=5188,0
+/api/user?session=xyz,0
+/images/logo.png?q=search,0
+/contact?id=7705,0
+/login?category=books,0
+/contact?q=search,0
+/contact?q=<script>alert(1)</script>,1
+/api/user?q=%00%00%00,1
+/dashboard?q=javascript:alert(1),1
+/' OR 1=1 --,1
+/../../../../etc/passwd,1
+/images/logo.png?q=<img src=x onerror=alert('hacked')>,1
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?session=xyz,0
+/&& netstat -an,1
+/images/logo.png?id=7284,0
+/assets/style.css?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/about?category=books,0
+"/UNION SELECT user, password FROM users",1
+/%00%00%00,1
+/<img src=x onerror=alert('hacked')>,1
+/login?q=<script>alert(1)</script>,1
+/products?page=1,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/login?page=1,0
+/$$$$$$$$$$$$,1
+/' OR 1=1 --,1
+/| whoami,1
+/contact,0
+/about?page=1,0
+/images/logo.png?q=search,0
+/| whoami,1
+/login?page=1,0
+/images/logo.png?session=xyz,0
+/contact?q=search,0
+/login?id=926,0
+/login,0
+/..\..\windows\system32\cmd.exe,1
+/home?q=search,0
+/login?q=' OR 1=1 --,1
+/about?q=search,0
+/images/logo.png?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/dashboard?category=books,0
+/login?q=<img src=x onerror=alert('hacked')>,1
+/; cat /etc/passwd,1
+/assets/style.css?category=books,0
+/$$$$$$$$$$$$,1
+/login?category=books,0
+/products?id=6983,0
+/<script>alert(1)</script>,1
+/assets/style.css?q=<script>alert(1)</script>,1
+/about?category=books,0
+/api/user,0
+/home?session=xyz,0
+/home?session=xyz,0
+/admin' --,1
+/dashboard?q=<img src=x onerror=alert('hacked')>,1
+/products?id=5525,0
+/api/user,0
+/' OR '1'='1,1
+/' OR 1=1 --,1
+/home?session=xyz,0
+/login?page=1,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?q=search,0
+/login?q=<script>alert(1)</script>,1
+/' OR '1'='1,1
+/products?id=8425,0
+/contact?q=search,0
+/about?session=xyz,0
+/api/user?category=books,0
+/home?page=1,0
+/dashboard?session=xyz,0
+/products?q=search,0
+/dashboard?q=' OR 1=1 --,1
+/login?q=; cat /etc/passwd,1
+/images/logo.png?q=<script>alert(1)</script>,1
+/; DROP TABLE students,1
+/javascript:alert(1),1
+/home?id=6407,0
+/admin' --,1
+/about?category=books,0
+/products?page=1,0
+/$$$$$$$$$$$$,1
+/login?q=$$$$$$$$$$$$,1
+/products?q=search,0
+/login?session=xyz,0
+/login?q=search,0
+/%00%00%00,1
+/' OR '1'='1,1
+/home?page=1,0
+/home?q=search,0
+/about?category=books,0
+/images/logo.png?category=books,0
+/' OR '1'='1,1
+/dashboard?id=9155,0
+/contact,0
+/&& netstat -an,1
+/login,0
+/dashboard?id=49,0
+/assets/style.css?q=../../../../etc/passwd,1
+/javascript:alert(1),1
+/about,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/| whoami,1
+/about?q=%00%00%00,1
+/products?id=7711,0
+/contact?session=xyz,0
+/api/user?id=8982,0
+/assets/style.css?page=1,0
+/products?q=admin' --,1
+/../../../../etc/passwd,1
+/&& netstat -an,1
+/home?session=xyz,0
+/<script>alert(1)</script>,1
+/../../../../etc/passwd,1
+/..\..\windows\system32\cmd.exe,1
+/login?category=books,0
+/api/user?page=1,0
+/%00%00%00,1
+/products?category=books,0
+/..\..\windows\system32\cmd.exe,1
+/assets/style.css?id=3553,0
+/about?q=&& netstat -an,1
+/$$$$$$$$$$$$,1
+/<img src=x onerror=alert('hacked')>,1
+/login?q=<script>alert(1)</script>,1
+/' OR 1=1 --,1
+/products?q=search,0
+/images/logo.png?category=books,0
+/assets/style.css?id=5240,0
+/login?id=3076,0
+/contact?q=&& netstat -an,1
+/assets/style.css?q=%00%00%00,1
+/dashboard?q=search,0
+/<script>alert(1)</script>,1
+/..\..\windows\system32\cmd.exe,1
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/contact?q=search,0
+/contact?page=1,0
+/products?id=561,0
+/contact?category=books,0
+/images/logo.png,0
+/images/logo.png?q=' OR 1=1 --,1
+/| whoami,1
+/products?q=javascript:alert(1),1
+/api/user?q=<script>alert(1)</script>,1
+/dashboard?q=<script>alert(1)</script>,1
+/../../../../etc/passwd,1
+/images/logo.png,0
+"/images/logo.png?q=UNION SELECT user, password FROM users",1
+/' OR '1'='1,1
+/images/logo.png,0
+/images/logo.png?q=..\..\windows\system32\cmd.exe,1
+/images/logo.png?session=xyz,0
+/home?page=1,0
+/contact,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/..\..\windows\system32\cmd.exe,1
+/api/user?q=; DROP TABLE students,1
+/dashboard?id=8425,0
+/&& netstat -an,1
+/login?q=search,0
+"/products?q=UNION SELECT user, password FROM users",1
+/about,0
+/api/user,0
+/<img src=x onerror=alert('hacked')>,1
+/home?page=1,0
+/api/user?q=' OR '1'='1,1
+/login?category=books,0
+/products?q=search,0
+/images/logo.png,0
+/dashboard?category=books,0
+/images/logo.png?q=<img src=x onerror=alert('hacked')>,1
+/login?q=..\..\windows\system32\cmd.exe,1
+/login?q=../../../../etc/passwd,1
+/home?q=; cat /etc/passwd,1
+/products?id=4180,0
+/about?session=xyz,0
+/about?q=search,0
+/login?page=1,0
+/api/user?page=1,0
+/images/logo.png?session=xyz,0
+/login?category=books,0
+/api/user?page=1,0
+/home?page=1,0
+/<script>alert(1)</script>,1
+/&& netstat -an,1
+/dashboard?category=books,0
+/dashboard?category=books,0
+/login?q=search,0
+/images/logo.png?q=%00%00%00,1
+/$$$$$$$$$$$$,1
+/about?id=9021,0
+/products?session=xyz,0
+/products?session=xyz,0
+/login,0
+/about?session=xyz,0
+/images/logo.png,0
+/api/user?q=; DROP TABLE students,1
+/login?id=9022,0
+/images/logo.png?id=512,0
+/&& netstat -an,1
+/products?q=&& netstat -an,1
+/products?page=1,0
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+"/login?q=UNION SELECT user, password FROM users",1
+/dashboard?id=5848,0
+/images/logo.png?category=books,0
+/| whoami,1
+/dashboard?category=books,0
+/api/user?id=5755,0
+/dashboard?q=../../../../etc/passwd,1
+/images/logo.png?q=search,0
+/dashboard?session=xyz,0
+/images/logo.png?page=1,0
+/assets/style.css?q=javascript:alert(1),1
+/login?q=<script>alert(1)</script>,1
+/about?page=1,0
+/about?session=xyz,0
+/assets/style.css?category=books,0
+/assets/style.css?q=search,0
+/api/user,0
+/home?q=%00%00%00,1
+/products?q=admin' --,1
+/assets/style.css,0
+/home?page=1,0
+/api/user?q=' OR '1'='1,1
+/contact,0
+/images/logo.png?session=xyz,0
+/contact?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/api/user?category=books,0
+/home?category=books,0
+/home?q=search,0
+/home?id=1723,0
+/about?category=books,0
+/assets/style.css?session=xyz,0
+/dashboard?page=1,0
+/<img src=x onerror=alert('hacked')>,1
+/about?id=30,0
+/assets/style.css,0
+/contact?q=<img src=x onerror=alert('hacked')>,1
+/home,0
+/api/user?page=1,0
+/images/logo.png?q=%00%00%00,1
+/images/logo.png?q=search,0
+/home?category=books,0
+/about?session=xyz,0
+/; DROP TABLE students,1
+/dashboard?page=1,0
+/contact?session=xyz,0
+/products?q=search,0
+/<img src=x onerror=alert('hacked')>,1
+/login?q=; DROP TABLE students,1
+/..\..\windows\system32\cmd.exe,1
+/; DROP TABLE students,1
+/products?q=<script>alert(1)</script>,1
+/login?q=..\..\windows\system32\cmd.exe,1
+/products?q=search,0
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?category=books,0
+/about?q=&& netstat -an,1
+/contact?q=search,0
+/contact?q=javascript:alert(1),1
+/contact?q=../../../../etc/passwd,1
+/dashboard?page=1,0
+/about?q=<script>alert(1)</script>,1
+/' OR '1'='1,1
+/about?q=search,0
+/assets/style.css,0
+"/about?q=UNION SELECT user, password FROM users",1
+/contact?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/home?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png,0
+/<script>alert(1)</script>,1
+/about?q=&& netstat -an,1
+/login?session=xyz,0
+/dashboard?category=books,0
+/products?session=xyz,0
+/; DROP TABLE students,1
+/&& netstat -an,1
+/contact?page=1,0
+/images/logo.png?q=; cat /etc/passwd,1
+/about,0
+/home,0
+/| whoami,1
+/products?id=7940,0
+/images/logo.png?id=9372,0
+/; DROP TABLE students,1
+/login?category=books,0
+/; cat /etc/passwd,1
+/../../../../etc/passwd,1
+/home?q=<script>alert(1)</script>,1
+/home?q=search,0
+/api/user?q=&& netstat -an,1
+/; DROP TABLE students,1
+/home?q=../../../../etc/passwd,1
+/contact?id=4012,0
+/&& netstat -an,1
+/..\..\windows\system32\cmd.exe,1
+/home?q=' OR 1=1 --,1
+/assets/style.css?id=6322,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?q=search,0
+/products?q=search,0
+/dashboard?category=books,0
+/about,0
+/<img src=x onerror=alert('hacked')>,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/' OR 1=1 --,1
+/&& netstat -an,1
+/products?id=486,0
+/assets/style.css?q=search,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/' OR 1=1 --,1
+/<img src=x onerror=alert('hacked')>,1
+/home?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/<img src=x onerror=alert('hacked')>,1
+/home?q=search,0
+/&& netstat -an,1
+/../../../../etc/passwd,1
+/admin' --,1
+/home?q=<script>alert(1)</script>,1
+/<script>alert(1)</script>,1
+/about?page=1,0
+/assets/style.css?session=xyz,0
+/home?q=javascript:alert(1),1
+/api/user?page=1,0
+/$$$$$$$$$$$$,1
+/../../../../etc/passwd,1
+/home?page=1,0
+/about?page=1,0
+/api/user?q=search,0
+/products?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?category=books,0
+/dashboard?q=search,0
+/| whoami,1
+/dashboard?id=4712,0
+/&& netstat -an,1
+/images/logo.png,0
+/about?q=search,0
+/dashboard?category=books,0
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?page=1,0
+/login?q=search,0
+/images/logo.png?session=xyz,0
+/login?q=%00%00%00,1
+"/UNION SELECT user, password FROM users",1
+"/login?q=UNION SELECT user, password FROM users",1
+/<img src=x onerror=alert('hacked')>,1
+/about?session=xyz,0
+/$$$$$$$$$$$$,1
+/about,0
+/; cat /etc/passwd,1
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/admin' --,1
+/images/logo.png?q=../../../../etc/passwd,1
+/assets/style.css?page=1,0
+/login?id=2276,0
+/assets/style.css?q=; cat /etc/passwd,1
+/$$$$$$$$$$$$,1
+/assets/style.css?q=search,0
+/dashboard?q=&& netstat -an,1
+/dashboard?category=books,0
+/about?q=..\..\windows\system32\cmd.exe,1
+/%00%00%00,1
+/dashboard?category=books,0
+/home?session=xyz,0
+/products?category=books,0
+/home?q=javascript:alert(1),1
+/home?q=<script>alert(1)</script>,1
+/api/user,0
+/; DROP TABLE students,1
+/..\..\windows\system32\cmd.exe,1
+/&& netstat -an,1
+/<script>alert(1)</script>,1
+/home?category=books,0
+/about?q=' OR 1=1 --,1
+/login,0
+/assets/style.css?page=1,0
+/assets/style.css?q=javascript:alert(1),1
+/products?page=1,0
+/api/user,0
+/contact?category=books,0
+/products?q=&& netstat -an,1
+/' OR 1=1 --,1
+/products?q=; DROP TABLE students,1
+/assets/style.css?q=javascript:alert(1),1
+/images/logo.png?q=../../../../etc/passwd,1
+/home?q=search,0
+/; cat /etc/passwd,1
+/products?category=books,0
+/about,0
+/home?q=..\..\windows\system32\cmd.exe,1
+/products?q=javascript:alert(1),1
+/contact?id=2196,0
+/login?q=search,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/contact?session=xyz,0
+/assets/style.css?q=search,0
+/home?q=../../../../etc/passwd,1
+/login,0
+/api/user?q=; DROP TABLE students,1
+/api/user?q=../../../../etc/passwd,1
+/products?q=' OR 1=1 --,1
+/api/user?category=books,0
+/login?session=xyz,0
+/' OR '1'='1,1
+/products,0
+/assets/style.css?q=&& netstat -an,1
+/images/logo.png,0
+/; DROP TABLE students,1
+/images/logo.png?session=xyz,0
+/../../../../etc/passwd,1
+/home?q=| whoami,1
+/' OR '1'='1,1
+/' OR 1=1 --,1
+/dashboard,0
+/contact?q=search,0
+/; DROP TABLE students,1
+/images/logo.png?q=search,0
+/&& netstat -an,1
+/contact?category=books,0
+/admin' --,1
+/contact?q=| whoami,1
+/home?id=4886,0
+/dashboard,0
+/images/logo.png,0
+/home?page=1,0
+/dashboard,0
+/images/logo.png?q=javascript:alert(1),1
+/login?q=search,0
+/admin' --,1
+/products?q=<script>alert(1)</script>,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/../../../../etc/passwd,1
+/../../../../etc/passwd,1
+/../../../../etc/passwd,1
+/images/logo.png?category=books,0
+"/UNION SELECT user, password FROM users",1
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/about?q=admin' --,1
+/products?session=xyz,0
+/contact?q=; DROP TABLE students,1
+/api/user?category=books,0
+/api/user?session=xyz,0
+/admin' --,1
+/home?q=; cat /etc/passwd,1
+/login?page=1,0
+/images/logo.png?id=7410,0
+/about?page=1,0
+/dashboard?id=3628,0
+/dashboard?id=945,0
+/home?session=xyz,0
+/dashboard?q=| whoami,1
+/products?id=4047,0
+/dashboard?id=9098,0
+/api/user,0
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard,0
+/assets/style.css?category=books,0
+/home?session=xyz,0
+/' OR '1'='1,1
+/login?page=1,0
+/home?page=1,0
+/images/logo.png?page=1,0
+/about?session=xyz,0
+/home?q=../../../../etc/passwd,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/<img src=x onerror=alert('hacked')>,1
+/..\..\windows\system32\cmd.exe,1
+/home?id=2955,0
+/&& netstat -an,1
+/login?q=..\..\windows\system32\cmd.exe,1
+/javascript:alert(1),1
+/dashboard?id=5984,0
+/home?q=' OR '1'='1,1
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/contact?q=&& netstat -an,1
+/assets/style.css,0
+/about?page=1,0
+/about?q=search,0
+/contact?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/about?q=%00%00%00,1
+/dashboard?category=books,0
+/&& netstat -an,1
+/home?q=' OR 1=1 --,1
+/dashboard?q=search,0
+/home?session=xyz,0
+/assets/style.css?session=xyz,0
+/images/logo.png?page=1,0
+/images/logo.png?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/api/user?page=1,0
+/home?q=..\..\windows\system32\cmd.exe,1
+/../../../../etc/passwd,1
+/contact?category=books,0
+/assets/style.css?q=javascript:alert(1),1
+/assets/style.css?q=; DROP TABLE students,1
+/&& netstat -an,1
+/contact?q=| whoami,1
+/images/logo.png?q=; cat /etc/passwd,1
+/assets/style.css?page=1,0
+/home?id=1769,0
+/<script>alert(1)</script>,1
+/home,0
+/about?q=&& netstat -an,1
+/about?page=1,0
+/javascript:alert(1),1
+/..\..\windows\system32\cmd.exe,1
+/api/user?q=' OR '1'='1,1
+/products?id=2304,0
+/products?category=books,0
+/home?session=xyz,0
+/<img src=x onerror=alert('hacked')>,1
+/$$$$$$$$$$$$,1
+/' OR '1'='1,1
+/api/user?q=search,0
+/login?q=search,0
+/admin' --,1
+/products?session=xyz,0
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/about?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css,0
+/login?q=&& netstat -an,1
+/products?id=2639,0
+/assets/style.css?session=xyz,0
+/dashboard?q=search,0
+/contact?q=../../../../etc/passwd,1
+"/products?q=UNION SELECT user, password FROM users",1
+/contact?q=; cat /etc/passwd,1
+/javascript:alert(1),1
+/about?q=search,0
+"/UNION SELECT user, password FROM users",1
+/dashboard?category=books,0
+/admin' --,1
+/api/user?q=admin' --,1
+/assets/style.css,0
+/home?category=books,0
+/api/user,0
+/dashboard?category=books,0
+/about?q=' OR '1'='1,1
+/%00%00%00,1
+/| whoami,1
+/; cat /etc/passwd,1
+/products?session=xyz,0
+/%00%00%00,1
+"/UNION SELECT user, password FROM users",1
+/products?category=books,0
+/contact?q=' OR 1=1 --,1
+/%00%00%00,1
+/contact,0
+/api/user?q=' OR 1=1 --,1
+/login?session=xyz,0
+/about?id=8931,0
+/dashboard,0
+/contact?q=search,0
+"/api/user?q=UNION SELECT user, password FROM users",1
+/api/user,0
+/api/user?q=search,0
+/contact?q=..\..\windows\system32\cmd.exe,1
+/api/user?q=; cat /etc/passwd,1
+/dashboard?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?category=books,0
+/assets/style.css?id=1509,0
+/<script>alert(1)</script>,1
+/images/logo.png?q=<script>alert(1)</script>,1
+/../../../../etc/passwd,1
+/contact?page=1,0
+/about?q=search,0
+/contact?q=; DROP TABLE students,1
+/; DROP TABLE students,1
+/api/user?category=books,0
+/home?id=6886,0
+/home?q=' OR '1'='1,1
+/api/user?category=books,0
+/api/user?q=admin' --,1
+/' OR 1=1 --,1
+/$$$$$$$$$$$$,1
+/images/logo.png,0
+/products?q=search,0
+/; DROP TABLE students,1
+/products?q=..\..\windows\system32\cmd.exe,1
+/../../../../etc/passwd,1
+/images/logo.png,0
+/about?category=books,0
+/api/user?q=<script>alert(1)</script>,1
+/' OR 1=1 --,1
+/&& netstat -an,1
+/home,0
+/images/logo.png?q=; DROP TABLE students,1
+/dashboard?id=1684,0
+/about,0
+/images/logo.png,0
+/about?q=search,0
+/products?q=; cat /etc/passwd,1
+/| whoami,1
+/$$$$$$$$$$$$,1
+/dashboard?session=xyz,0
+/../../../../etc/passwd,1
+/; cat /etc/passwd,1
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/api/user,0
+"/UNION SELECT user, password FROM users",1
+/login?q=; cat /etc/passwd,1
+/api/user?q=; cat /etc/passwd,1
+/contact?q=&& netstat -an,1
+/dashboard?q=..\..\windows\system32\cmd.exe,1
+/products?page=1,0
+/home?q=$$$$$$$$$$$$,1
+/assets/style.css?id=6531,0
+/products?page=1,0
+/api/user?q=; DROP TABLE students,1
+/<script>alert(1)</script>,1
+/assets/style.css?q=' OR '1'='1,1
+/images/logo.png?page=1,0
+/about?category=books,0
+/home?q=' OR 1=1 --,1
+/login?q=<script>alert(1)</script>,1
+/<script>alert(1)</script>,1
+/login?q=' OR 1=1 --,1
+/products?session=xyz,0
+/' OR '1'='1,1
+/' OR 1=1 --,1
+/contact?q=; DROP TABLE students,1
+/assets/style.css?q=search,0
+/login?category=books,0
+/assets/style.css?q=<img src=x onerror=alert('hacked')>,1
+/dashboard?q=<script>alert(1)</script>,1
+/..\..\windows\system32\cmd.exe,1
+/contact?category=books,0
+/about?q=search,0
+/about?session=xyz,0
+/images/logo.png,0
+/assets/style.css?q=; cat /etc/passwd,1
+/<img src=x onerror=alert('hacked')>,1
+/' OR '1'='1,1
+/' OR 1=1 --,1
+/home?q=search,0
+/products?q=&& netstat -an,1
+/api/user?q=<img src=x onerror=alert('hacked')>,1
+/images/logo.png?page=1,0
+/home?page=1,0
+/products?q=| whoami,1
+/contact?page=1,0
+/about?q=search,0
+/login?category=books,0
+/dashboard?id=9614,0
+/javascript:alert(1),1
+/&& netstat -an,1
+/admin' --,1
+/home?session=xyz,0
+/contact?page=1,0
+/assets/style.css?q=%00%00%00,1
+/admin' --,1
+/about?q=| whoami,1
+/$$$$$$$$$$$$,1
+/login?q=search,0
+/login?page=1,0
+/' OR 1=1 --,1
+/dashboard?q=| whoami,1
+/products?q=' OR '1'='1,1
+/products?q=javascript:alert(1),1
+/contact?q=%00%00%00,1
+/about?q=| whoami,1
+/api/user?id=1213,0
+/images/logo.png?q=' OR 1=1 --,1
+/api/user?q=../../../../etc/passwd,1
+/assets/style.css,0
+/api/user?q=search,0
+/about?q=search,0
+/assets/style.css?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/assets/style.css?id=1684,0
+/admin' --,1
+/login?q=$$$$$$$$$$$$,1
+/<script>alert(1)</script>,1
+/assets/style.css?q=search,0
+/' OR '1'='1,1
+/<img src=x onerror=alert('hacked')>,1
+/products,0
+"/products?q=UNION SELECT user, password FROM users",1
+/assets/style.css?category=books,0
+/about?q=search,0
+/products?id=3526,0
+"/home?q=UNION SELECT user, password FROM users",1
+/..\..\windows\system32\cmd.exe,1
+/; cat /etc/passwd,1
+/home,0
+/../../../../etc/passwd,1
+/api/user?q=&& netstat -an,1
+/assets/style.css?session=xyz,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/dashboard?q=search,0
+/' OR 1=1 --,1
+/; cat /etc/passwd,1
+/<script>alert(1)</script>,1
+/images/logo.png?q=$$$$$$$$$$$$,1
+/products?category=books,0
+/api/user?page=1,0
+/admin' --,1
+/dashboard?category=books,0
+/products?q=search,0
+/home?q=search,0
+/products?q=$$$$$$$$$$$$,1
+/login?id=1615,0
+/&& netstat -an,1
+/<script>alert(1)</script>,1
+/$$$$$$$$$$$$,1
+/&& netstat -an,1
+/contact?id=1910,0
+/login?session=xyz,0
+/products?q=; cat /etc/passwd,1
+"/api/user?q=UNION SELECT user, password FROM users",1
+/<script>alert(1)</script>,1
+/home,0
+/&& netstat -an,1
+"/contact?q=UNION SELECT user, password FROM users",1
+/home?page=1,0
+/api/user,0
+/<script>alert(1)</script>,1
+/contact?q=javascript:alert(1),1
+/api/user?q=javascript:alert(1),1
+/home?q=$$$$$$$$$$$$,1
+/home?q=<script>alert(1)</script>,1
+/%00%00%00,1
+/about?page=1,0
+/contact?category=books,0
+/<img src=x onerror=alert('hacked')>,1
+/about?q=| whoami,1
+/api/user?category=books,0
+/dashboard?q=javascript:alert(1),1
+/images/logo.png?q=admin' --,1
+/images/logo.png?session=xyz,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/api/user?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/products?page=1,0
+"/contact?q=UNION SELECT user, password FROM users",1
+/assets/style.css?session=xyz,0
+/products,0
+/; DROP TABLE students,1
+/| whoami,1
+/images/logo.png?page=1,0
+/dashboard?q=search,0
+/login?q=' OR 1=1 --,1
+/products?page=1,0
+/&& netstat -an,1
+/assets/style.css,0
+/..\..\windows\system32\cmd.exe,1
+/dashboard?category=books,0
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/admin' --,1
+"/assets/style.css?q=UNION SELECT user, password FROM users",1
+/login?session=xyz,0
+/' OR 1=1 --,1
+/' OR 1=1 --,1
+/products?id=4643,0
+/home?id=3357,0
+/home,0
+/about?session=xyz,0
+/products?session=xyz,0
+/api/user?session=xyz,0
+/login,0
+/dashboard?page=1,0
+/images/logo.png?q=search,0
+"/UNION SELECT user, password FROM users",1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?page=1,0
+/; cat /etc/passwd,1
+/login?category=books,0
+/images/logo.png?category=books,0
+/login?q=' OR 1=1 --,1
+/api/user?q=; DROP TABLE students,1
+/images/logo.png?page=1,0
+/' OR 1=1 --,1
+/images/logo.png?page=1,0
+/' OR '1'='1,1
+/<script>alert(1)</script>,1
+/products,0
+/api/user,0
+/$$$$$$$$$$$$,1
+/dashboard?session=xyz,0
+/contact?page=1,0
+/javascript:alert(1),1
+/products,0
+/contact?q=$$$$$$$$$$$$,1
+/contact?page=1,0
+/about?id=9683,0
+/products?category=books,0
+/login?id=8892,0
+/assets/style.css?category=books,0
+/login?category=books,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/products?id=7055,0
+/products?q=' OR 1=1 --,1
+/contact?category=books,0
+/images/logo.png?q=javascript:alert(1),1
+/' OR '1'='1,1
+/' OR 1=1 --,1
+/login?session=xyz,0
+/api/user?session=xyz,0
+/login?q=search,0
+/$$$$$$$$$$$$,1
+/login?category=books,0
+/contact,0
+/assets/style.css?page=1,0
+/api/user?id=1805,0
+/dashboard?q=; cat /etc/passwd,1
+/api/user?session=xyz,0
+/about?id=8970,0
+/../../../../etc/passwd,1
+/home?q=%00%00%00,1
+/| whoami,1
+/home?page=1,0
+"/UNION SELECT user, password FROM users",1
+/images/logo.png,0
+/images/logo.png?q=%00%00%00,1
+/images/logo.png,0
+/' OR 1=1 --,1
+/login?q=search,0
+/api/user,0
+/login?id=1232,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?q=$$$$$$$$$$$$,1
+/login?category=books,0
+/<script>alert(1)</script>,1
+/assets/style.css?q=; DROP TABLE students,1
+/dashboard?category=books,0
+/; DROP TABLE students,1
+/products?category=books,0
+/assets/style.css,0
+"/UNION SELECT user, password FROM users",1
+/admin' --,1
+/..\..\windows\system32\cmd.exe,1
+/../../../../etc/passwd,1
+/contact?page=1,0
+/products?q=javascript:alert(1),1
+/| whoami,1
+/products?page=1,0
+/dashboard?q=search,0
+/login?id=6473,0
+/api/user,0
+/about?q=search,0
+/images/logo.png?session=xyz,0
+/assets/style.css?q=search,0
+/about?q=search,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?page=1,0
+/home?id=1384,0
+/%00%00%00,1
+/login?page=1,0
+/admin' --,1
+/assets/style.css?page=1,0
+/dashboard?id=4158,0
+/<img src=x onerror=alert('hacked')>,1
+/home?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/login?q=admin' --,1
+/assets/style.css?id=9784,0
+/images/logo.png?q=javascript:alert(1),1
+/login?q=search,0
+/| whoami,1
+/%00%00%00,1
+/products,0
+/about?q=| whoami,1
+/about?q=javascript:alert(1),1
+/javascript:alert(1),1
+"/about?q=UNION SELECT user, password FROM users",1
+/| whoami,1
+/login?q=search,0
+/<img src=x onerror=alert('hacked')>,1
+/assets/style.css?session=xyz,0
+/home?q=&& netstat -an,1
+/login,0
+/about,0
+"/products?q=UNION SELECT user, password FROM users",1
+"/dashboard?q=UNION SELECT user, password FROM users",1
+/login?session=xyz,0
+/login?q=&& netstat -an,1
+/api/user?category=books,0
+/about?q=..\..\windows\system32\cmd.exe,1
+/contact?page=1,0
+/images/logo.png?session=xyz,0
+/contact?page=1,0
+/../../../../etc/passwd,1
+/api/user?category=books,0
+/dashboard?q=../../../../etc/passwd,1
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/dashboard?q=; cat /etc/passwd,1
+/dashboard?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/$$$$$$$$$$$$,1
+/about?id=5102,0
+/api/user,0
+/api/user?category=books,0
+/api/user?page=1,0
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/$$$$$$$$$$$$,1
+/about?session=xyz,0
+/about?q=javascript:alert(1),1
+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/' OR 1=1 --,1
+/api/user?q=; cat /etc/passwd,1
+/dashboard?page=1,0
+/| whoami,1
+/assets/style.css?id=4184,0
+/assets/style.css?q=%00%00%00,1
+/about?q=%00%00%00,1
+/contact,0
+/| whoami,1
+/dashboard?page=1,0
+/; cat /etc/passwd,1
+/products?q=' OR 1=1 --,1
+/images/logo.png?q=javascript:alert(1),1
+/contact?q=javascript:alert(1),1
+/about?session=xyz,0
+/home?category=books,0
+/images/logo.png?session=xyz,0
+/about?q=<img src=x onerror=alert('hacked')>,1
+/javascript:alert(1),1
+/assets/style.css?q=javascript:alert(1),1
+/images/logo.png?session=xyz,0
+/api/user?page=1,0
+/contact,0
+/dashboard,0
+/images/logo.png,0
+/images/logo.png?id=8358,0
+/assets/style.css?id=1837,0
+/about?session=xyz,0
+/about,0
+/dashboard,0
+/about?id=8281,0
+/products?session=xyz,0
+/dashboard?id=9659,0
+/products?q=search,0
+/assets/style.css?q=../../../../etc/passwd,1
+/login?q=' OR 1=1 --,1
+/..\..\windows\system32\cmd.exe,1
+/$$$$$$$$$$$$,1
+"/login?q=UNION SELECT user, password FROM users",1
+/assets/style.css?page=1,0
+/api/user?q=$$$$$$$$$$$$,1
+/api/user?q=..\..\windows\system32\cmd.exe,1
+/assets/style.css?q=| whoami,1
+/login?session=xyz,0
+/assets/style.css,0
+/; DROP TABLE students,1
+/home?q=; cat /etc/passwd,1
+/contact?session=xyz,0
+/images/logo.png?session=xyz,0
+/home,0
+/about?session=xyz,0
+/login?q=search,0
+/dashboard?category=books,0
+/assets/style.css,0
+/images/logo.png?category=books,0
+/dashboard?q=%00%00%00,1
+/products?page=1,0
+/home?q=' OR 1=1 --,1
+/api/user?session=xyz,0
+/contact?q=search,0
+/assets/style.css?q=<script>alert(1)</script>,1
+/javascript:alert(1),1
+/api/user?q=search,0
+/api/user?q=search,0
+"/UNION SELECT user, password FROM users",1
+/..\..\windows\system32\cmd.exe,1
+/&& netstat -an,1
+/| whoami,1
+/products?page=1,0
+/api/user?q=search,0
+/contact?q=$$$$$$$$$$$$,1
+/; DROP TABLE students,1
+/dashboard?q=$$$$$$$$$$$$,1
+/assets/style.css?q=..\..\windows\system32\cmd.exe,1
+/home?q=$$$$$$$$$$$$,1
+/contact?id=1664,0
+/about?page=1,0
+/login?q=../../../../etc/passwd,1
+/admin' --,1
+/products?q=&& netstat -an,1
+/products,0
+/login?q=search,0
+/assets/style.css?id=6140,0
+/../../../../etc/passwd,1
+/products?id=4312,0
+/products?session=xyz,0
+/home?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/home?q=search,0
+/..\..\windows\system32\cmd.exe,1
+/api/user?q=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,1
+/images/logo.png?category=books,0
+/contact?id=2363,0
+/assets/style.css?q=; DROP TABLE students,1
+/; DROP TABLE students,1
+/api/user?q=<script>alert(1)</script>,1
+/<script>alert(1)</script>,1
+/api/user?id=5597,0
+"/UNION SELECT user, password FROM users",1
+/products?q=' OR 1=1 --,1
+/dashboard?q=search,0
+/' OR '1'='1,1
+/home?category=books,0
+/images/logo.png?id=692,0
+/assets/style.css?id=7068,0
+/dashboard?session=xyz,0
+/dashboard?id=2828,0
+/assets/style.css?session=xyz,0
+/; cat /etc/passwd,1
+/products?category=books,0
+/contact?q=search,0
+/' OR 1=1 --,1
+/' OR 1=1 --,1
+/about?page=1,0
+/contact?q=<script>alert(1)</script>,1
+/$$$$$$$$$$$$,1
+/javascript:alert(1),1
+/' OR '1'='1,1
+/products?q=search,0
+/api/user?q=search,0
+/about?category=books,0
+/api/user?q=search,0
+/api/user?page=1,0
+/dashboard?category=books,0
+/&& netstat -an,1
+/about?page=1,0
+/products,0
+/dashboard?q=search,0
+/products?q=..\..\windows\system32\cmd.exe,1
+/assets/style.css?id=8480,0
+/login,0
+/<img src=x onerror=alert('hacked')>,1
+/login?q=&& netstat -an,1
+/images/logo.png?id=8615,0
+/home?id=8722,0
+/home?session=xyz,0
+"/UNION SELECT user, password FROM users",1
+/api/user?q=&& netstat -an,1
+/home?q=$$$$$$$$$$$$,1
